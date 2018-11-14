@@ -3,7 +3,7 @@ package com.biz.method.classes;
 public class ScoreVO {
 	//변수를 선언하는 키워드
 	String strName ;
-	int intKor;//객체
+	int intKor;
 	int intEng;
 	int intMath;
 	int intSci;

@@ -7,6 +7,8 @@ public class Class05 {
 		ScoreDAO scoreDAO = new ScoreDAO();
 		
 		scoreDAO.scoreVO.intKor=99;
+		scoreDAO.scoreVO.intEng=89;
+		
 
 	}
 
