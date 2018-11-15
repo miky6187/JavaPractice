@@ -23,7 +23,7 @@ public class StaticExec01 {
 			
 		}
 		
-		Nations.KOREA ="우리나라"; //KOREA는 final변수이기에 값을 변경할 수 없다.
+		//KOREA는 final변수이기에 값을 변경할 수 없다.
 		if(strName.equals(Nations.KOREA)) {
 			
 		}
