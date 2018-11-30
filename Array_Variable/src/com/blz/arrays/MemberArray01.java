@@ -1,4 +1,4 @@
-package com.blz.arrays;
+﻿package com.blz.arrays;
 
 public class MemberArray01 {
 
@@ -9,7 +9,7 @@ public class MemberArray01 {
 		
 		
 		arrMem[0]= new MemberVO();
-		arrMem[0].strName ="ȫ�浿";
+		arrMem[0].strName ="홍길동";
 		
 
 	}

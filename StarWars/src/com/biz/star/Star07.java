@@ -1,4 +1,4 @@
-package com.biz.star;
+﻿package com.biz.star;
 
 public class Star07 {
 

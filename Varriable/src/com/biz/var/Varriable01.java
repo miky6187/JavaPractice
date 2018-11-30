@@ -1,44 +1,44 @@
-package com.biz.var;
+ï»¿package com.biz.var;
 
 public class Varriable01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		// ¿©±â ÄÚµå´Â 30ÀÌ¶ó´Â °ª, 40ÀÌ¶ó´Â °ª, ±×¸®°í °á°úÀÎ 70ÀÌ¶ó´Â °ªÀ»
-		//java(¶Ç´Â ÄÄÇ»ÅÍ°¡)°¡ ÀÓÀÇ·Î ÀúÀåÇÑ °÷¿¡ ÀúÀåÀ» ÇÏ°í ¸ðµç Ã³¸®¸¦ ¾Ë¾Æ¼­ ÇÑ´Ù.
+		// ì—¬ê¸° ì½”ë“œëŠ” 30ì´ë¼ëŠ” ê°’, 40ì´ë¼ëŠ” ê°’, ê·¸ë¦¬ê³  ê²°ê³¼ì¸ 70ì´ë¼ëŠ” ê°’ì„
+		//java(ë˜ëŠ” ì»´í“¨í„°ê°€)ê°€ ìž„ì˜ë¡œ ì €ìž¥í•œ ê³³ì— ì €ìž¥ì„ í•˜ê³  ëª¨ë“  ì²˜ë¦¬ë¥¼ ì•Œì•„ì„œ í•œë‹¤.
 		System.out.println(30+40);
 		System.out.println(30+40); 
 		System.out.println(30+40); 
 		System.out.println(30+40); 
 		
-		//¿ì¸®°¡ ÁöÁ¤ÇÑ ±â¾ïÀå¼Ò¿¡ 30,40À» ÀúÀåÇÏ°í ±× °á°úµµ 
-		//¿ì¸®°¡ ÁöÁ¤ÇÑ ±â¾ïÀå¼Ò¿¡ ÀúÀå½ÃÄÑ¼­ ÀçÈ°¿ë ÇØ º¸°Ú´Ù.
+		//ìš°ë¦¬ê°€ ì§€ì •í•œ ê¸°ì–µìž¥ì†Œì— 30,40ì„ ì €ìž¥í•˜ê³  ê·¸ ê²°ê³¼ë„ 
+		//ìš°ë¦¬ê°€ ì§€ì •í•œ ê¸°ì–µìž¥ì†Œì— ì €ìž¥ì‹œì¼œì„œ ìž¬í™œìš© í•´ ë³´ê² ë‹¤.
 		
-		// int(Á¤¼ö)¸¦ ÀúÀåÇÒ ¸¸Å­ÀÇ Å©±â(:4byte Å©±â)ÀÇ ±â¾ïÀå¼Ò 3°³¸¦ ¿¹¾àÇÏ°Ú´Ù.
-		int num1 ;  // num1 ÀÌ¶ó´Â ±â¾ïÀå¼Ò¸¦ ¼±¾ð : ¼±¾ð¹®
+		// int(ì •ìˆ˜)ë¥¼ ì €ìž¥í•  ë§Œí¼ì˜ í¬ê¸°(:4byte í¬ê¸°)ì˜ ê¸°ì–µìž¥ì†Œ 3ê°œë¥¼ ì˜ˆì•½í•˜ê² ë‹¤.
+		int num1 ;  // num1 ì´ë¼ëŠ” ê¸°ì–µìž¥ì†Œë¥¼ ì„ ì–¸ : ì„ ì–¸ë¬¸
 		int num2 ; 
 		int sum ;
 		
 		//check in
 		num1=30;
 		
-		//Å°¿öµå°¡ ¾Æ´Ñ ¾î¶² °ÍÀ¸·Î ¹®ÀåÀÌ ½ÃÀÛµÇ¸é Áß°£¿¡ °ÅÀÇ ¸ðµç ºÎºÐ¿¡¼­= ÀÌ ³ªÅ¸³­´Ù.
-		// = ÀÌ ³ªÅ¸³ª¸é ¿ì¼±ÀûÀ¸·Î ¿À¸¥ÂÊÀ» ¸ÕÀú ºÐ¼®, ½ÇÇàÇÑ´Ù.
+		//í‚¤ì›Œë“œê°€ ì•„ë‹Œ ì–´ë–¤ ê²ƒìœ¼ë¡œ ë¬¸ìž¥ì´ ì‹œìž‘ë˜ë©´ ì¤‘ê°„ì— ê±°ì˜ ëª¨ë“  ë¶€ë¶„ì—ì„œ= ì´ ë‚˜íƒ€ë‚œë‹¤.
+		// = ì´ ë‚˜íƒ€ë‚˜ë©´ ìš°ì„ ì ìœ¼ë¡œ ì˜¤ë¥¸ìª½ì„ ë¨¼ì € ë¶„ì„, ì‹¤í–‰í•œë‹¤.
 		num2=40;
 		
-		// º¯¼ö(num) : ÀúÀå¼Ò¿¡ ºÙ¿©Áø º°¸í(Alias), ÀúÀå°ø°£À» ÀÇ¹Ì
-		//º¯¼ö¸í ¸í¸í ±ÔÄ¢
-		/* 1. Ã¹±ÛÀÚ´Â ¿µ¹® ¼Ò¹®ÀÚ·Î ¾´´Ù.
-		 *  2. 2¹øÂ° ºÎÅÍ´Â ¿µ¹®´ë¼Ò¹®ÀÚ, ¼ýÀÚ, _ ¸¦ ¾µ ¼ö ÀÖ´Ù.
-		 *  3. º¯¼öÀÌ¸§Àº ÀÇ¹Ì ÀÖ´Â ÀÌ¸§À¸·Î ÇÏ´Â °ÍÀÌ ÁÁ´Ù. 
+		// ë³€ìˆ˜(num) : ì €ìž¥ì†Œì— ë¶™ì—¬ì§„ ë³„ëª…(Alias), ì €ìž¥ê³µê°„ì„ ì˜ë¯¸
+		//ë³€ìˆ˜ëª… ëª…ëª… ê·œì¹™
+		/* 1. ì²«ê¸€ìžëŠ” ì˜ë¬¸ ì†Œë¬¸ìžë¡œ ì“´ë‹¤.
+		 *  2. 2ë²ˆì§¸ ë¶€í„°ëŠ” ì˜ë¬¸ëŒ€ì†Œë¬¸ìž, ìˆ«ìž, _ ë¥¼ ì“¸ ìˆ˜ ìžˆë‹¤.
+		 *  3. ë³€ìˆ˜ì´ë¦„ì€ ì˜ë¯¸ ìžˆëŠ” ì´ë¦„ìœ¼ë¡œ í•˜ëŠ” ê²ƒì´ ì¢‹ë‹¤. 
 		 */
 		
-		//¸¸¾à ±¹¾îÁ¡¼ö, ¿µ¾îÁ¡¼ö¸¦ ÀúÀåÇÒ º¯¼ö¸¦ ¸¸µç´Ù¸é
+		//ë§Œì•½ êµ­ì–´ì ìˆ˜, ì˜ì–´ì ìˆ˜ë¥¼ ì €ìž¥í•  ë³€ìˆ˜ë¥¼ ë§Œë“ ë‹¤ë©´
 		int korGrade;
 		int engGrade;
 		
-		// 4. º¯¼ö¿¡ ÀúÀåÇÒ ÀÚ·á, µ¥ÀÌÅÍÀÇ ÇüÀ» Á¢µÎ»ç·Î ¾²´Â °Íµµ ÁÁ´Ù. (±ÇÀåÇÔ, camel±â¹ý)
+		// 4. ë³€ìˆ˜ì— ì €ìž¥í•  ìžë£Œ, ë°ì´í„°ì˜ í˜•ì„ ì ‘ë‘ì‚¬ë¡œ ì“°ëŠ” ê²ƒë„ ì¢‹ë‹¤. (ê¶Œìž¥í•¨, camelê¸°ë²•)
 		int intKorGrade;
 		int intKor;
 		
@@ -46,8 +46,8 @@ public class Varriable01 {
 		int intNum2;
 		int intSum;
 		
-		// 5. º¯¼ö ¸í¿¡´Â Å°¿öµå¸¦ ¾µ ¼ö ¾ø´Ù. (ex : int int;)
-		//  => µÎ´Ü¾î ÀÌ»óÀ» Á¶ÇÕÇÏ´Â °ÍÀÌ ÁÁ´Ù.
+		// 5. ë³€ìˆ˜ ëª…ì—ëŠ” í‚¤ì›Œë“œë¥¼ ì“¸ ìˆ˜ ì—†ë‹¤. (ex : int int;)
+		//  => ë‘ë‹¨ì–´ ì´ìƒì„ ì¡°í•©í•˜ëŠ” ê²ƒì´ ì¢‹ë‹¤.
 		
 		
 		

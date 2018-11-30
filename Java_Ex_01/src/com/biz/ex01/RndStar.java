@@ -1,4 +1,4 @@
-package com.biz.ex01;
+ï»¿package com.biz.ex01;
 
 public class RndStar {
 
@@ -9,7 +9,7 @@ public class RndStar {
 
 	}
 	public static void makeStar(int intStar) {
-		System.out.println( intStar +"°³ÀÇ º°Âï±â");
+		System.out.println( intStar +"ê°œì˜ ë³„ì°ê¸°");
 		for(int i=0; i<intStar; i++) {
 			for(int j=0; j<intStar; j++) {
 				System.out.print("* ");

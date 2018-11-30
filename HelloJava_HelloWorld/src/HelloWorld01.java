@@ -1,33 +1,33 @@
+ï»¿
 
-
-//ÄÚµå¸¦ ÀÛ¼ºÇÒ¶§
-//´Ü¾î¿Í ´Ü¾îµéÀ» ³ª¿­ÇÏ¿© ¹®ÀåÀ» ¸¸µé°í
-//¹®ÀåµéÀÌ ¾î¿ï·Á¼­ ¾î¶² ±â´É(°á°ú)À» ¸¸µé¾î ³½´Ù
+//ì½”ë“œë¥¼ ìž‘ì„±í• ë•Œ
+//ë‹¨ì–´ì™€ ë‹¨ì–´ë“¤ì„ ë‚˜ì—´í•˜ì—¬ ë¬¸ìž¥ì„ ë§Œë“¤ê³ 
+//ë¬¸ìž¥ë“¤ì´ ì–´ìš¸ë ¤ì„œ ì–´ë–¤ ê¸°ëŠ¥(ê²°ê³¼)ì„ ë§Œë“¤ì–´ ë‚¸ë‹¤
 public class HelloWorld01 {
 	
-	//¸¸¾à ´Ü¾î¿Í ´Ü¾î»çÀÌ¸¦ ¶ç¾î¾²±â¸¦ ÇÑÄ­ ÀÌ»ó ÇÏÁö ¾Ê°Å³ª
-	//_¸¦ ³Ö°Å³ª ¼ýÀÚ¸¦ ³ÖÀ¸¸é
-	//±×°ÍÀº Á¤»óÀûÀÎ ¹®¹ýÀÌ ¾Æ´Ï±â ¶§¹®¿¡
-	//¿À·ù¸¦ Ç¥½ÃÇÑ´Ù
-	//void main -Á¤»ó
-	//void_main -¿À·ù:ÅëÂ°·Î ÇÑ´Ü¾î·Î ÀÎ½Ä
-	//void_main -¿À·ù:ÇÑ´Ü¾î·Î ÀÎ½Ä
+	//ë§Œì•½ ë‹¨ì–´ì™€ ë‹¨ì–´ì‚¬ì´ë¥¼ ë„ì–´ì“°ê¸°ë¥¼ í•œì¹¸ ì´ìƒ í•˜ì§€ ì•Šê±°ë‚˜
+	//_ë¥¼ ë„£ê±°ë‚˜ ìˆ«ìžë¥¼ ë„£ìœ¼ë©´
+	//ê·¸ê²ƒì€ ì •ìƒì ì¸ ë¬¸ë²•ì´ ì•„ë‹ˆê¸° ë•Œë¬¸ì—
+	//ì˜¤ë¥˜ë¥¼ í‘œì‹œí•œë‹¤
+	//void main -ì •ìƒ
+	//void_main -ì˜¤ë¥˜:í†µì§¸ë¡œ í•œë‹¨ì–´ë¡œ ì¸ì‹
+	//void_main -ì˜¤ë¥˜:í•œë‹¨ì–´ë¡œ ì¸ì‹
 	//2
 	//
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// ´Â ÄÚ¸àÆ® ÀÇ ÀÇ¹Ì
+		// ëŠ” ì½”ë©˜íŠ¸ ì˜ ì˜ë¯¸
 		/*
-		 * ¿©·¯ÁÙ¾¿ Âü°í¸¦ Ãß°¡ÇÒ¶§ º°Ç¥(*)¸¦ »ç¿ëÇÑ´Ù
+		 * ì—¬ëŸ¬ì¤„ì”© ì°¸ê³ ë¥¼ ì¶”ê°€í• ë•Œ ë³„í‘œ(*)ë¥¼ ì‚¬ìš©í•œë‹¤
 		 * 
-		 * Æ¯º°È÷ ºóÄ­À¸·Î ±¸ºÐµÇÁö ¾Ê´Â ¹®ÀåÀº
-		 * ´Ü¾î¿Í ´Ü¾î»çÀÌ¿¡ ¸¶Ä§Ç¥(.)¸¦ Ç¥ÇÔÇØ¼­
-		 * ´Ü¾î¿Í ´Ü¾î¸¦ ±¸º°ÇÑ´Ù.
+		 * íŠ¹ë³„ížˆ ë¹ˆì¹¸ìœ¼ë¡œ êµ¬ë¶„ë˜ì§€ ì•ŠëŠ” ë¬¸ìž¥ì€
+		 * ë‹¨ì–´ì™€ ë‹¨ì–´ì‚¬ì´ì— ë§ˆì¹¨í‘œ(.)ë¥¼ í‘œí•¨í•´ì„œ
+		 * ë‹¨ì–´ì™€ ë‹¨ì–´ë¥¼ êµ¬ë³„í•œë‹¤.
 		 *
-		 *ctrl + d : ÇÑÁÙ Áö¿ì±â
+		 *ctrl + d : í•œì¤„ ì§€ìš°ê¸°
 		 *ctrl + z : undo
-		 *ctrl + s : ÀúÀåÇÏ±â
-		 *shift + end ¶Ç´Â home : ºí·Ï¾º¿ì±â
+		 *ctrl + s : ì €ìž¥í•˜ê¸°
+		 *shift + end ë˜ëŠ” home : ë¸”ë¡ì”Œìš°ê¸°
 		 */
 		System.out.println(30 * 40); 
 		System.out.println();                                                   

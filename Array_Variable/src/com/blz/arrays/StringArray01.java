@@ -1,4 +1,4 @@
-package com.blz.arrays;
+ï»¿package com.blz.arrays;
 
 public class StringArray01 {
 
@@ -6,8 +6,8 @@ public class StringArray01 {
 		// TODO Auto-generated method stub
 		String[] strNation1 = {
 				"KOREA",
-				"´ëÇÑ¹Î±¹",
-				"¿ì¸®³ª¶ó",
+				"ëŒ€í•œë¯¼êµ­",
+				"ìš°ë¦¬ë‚˜ë¼",
 				"Republic of Korea"
 		};
 		

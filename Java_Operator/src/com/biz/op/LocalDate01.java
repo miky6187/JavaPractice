@@ -1,4 +1,4 @@
-package com.biz.op;
+ï»¿package com.biz.op;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -8,16 +8,16 @@ public class LocalDate01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//JDK 8(1.8) ÀÌ»ó¿¡¼­´Â »õ·Î¿î ³¯Â¥, ½Ã°£ Å¬·¡½º°¡ ÀÖ´Ù.
-		//±³Àç p.782~
+		//JDK 8(1.8) ì´ìƒì—ì„œëŠ” ìƒˆë¡œìš´ ë‚ ì§œ, ì‹œê°„ í´ë˜ìŠ¤ê°€ ìˆë‹¤.
+		//êµì¬ p.782~
 		
 		LocalDate localDate = LocalDate.now();
 		LocalTime  localTime = LocalTime.now();
 		LocalDateTime  localDateTime = LocalDateTime.now();
 		
-		System.out.println("¿À´Ã³¯Â¥ : "+localDate);
-		System.out.println("ÇöÀç½Ã°¢ : "+localTime);
-		System.out.println("³¯Â¥¿Í ½Ã°¢ : "+localDateTime);
+		System.out.println("ì˜¤ëŠ˜ë‚ ì§œ : "+localDate);
+		System.out.println("í˜„ì¬ì‹œê° : "+localTime);
+		System.out.println("ë‚ ì§œì™€ ì‹œê° : "+localDateTime);
 		
 		LocalDate xmas = LocalDate.of(2018, 12, 25);
 		System.out.println(xmas);

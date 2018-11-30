@@ -1,14 +1,14 @@
-package com.biz.raffle;
+ï»¿package com.biz.raffle;
 
 public class NamesClass {
 	//
 	public static final String[] NAMES = {
-		"È«±æµ¿",
-		"ÀÌ¸ù·æ",
-		"¼ºÃáÇâ",
-		"ÀÓ²©Á¤",
-		"Çã³­¼³Çã",
-		"Çã±Õ"
+		"í™ê¸¸ë™",
+		"ì´ëª½ë£¡",
+		"ì„±ì¶˜í–¥",
+		"ì„êº½ì •",
+		"í—ˆë‚œì„¤í—ˆ",
+		"í—ˆê· "
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.biz.ex02;
+ï»¿package com.biz.ex02;
 
 import java.util.Scanner;
 
@@ -11,22 +11,22 @@ public class GradeExec01 {
 		GradeVO gradeVO = new GradeVO();
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("ÇÐ¹ø>>");
+		System.out.print("í•™ë²ˆ>>");
 		gradeVO.setStrNum(scanner.nextLine());
 		
-		System.out.print("±¹¾îÁ¡¼ö>>");
+		System.out.print("êµ­ì–´ì ìˆ˜>>");
 		String strKor = scanner.nextLine();
 		int intKor = Integer.valueOf(strKor);
 		gradeVO.setIntKor(intKor);
 		// gradeVO.setIntKor(Integer.valueOf(scanner.nextLine()));  
-		// >> À§¿Í °°Àº ³»¿ëÀÓ.
+		// >> ìœ„ì™€ ê°™ì€ ë‚´ìš©ìž„.
 		
-		System.out.print("¿µ¾îÁ¡¼ö>>");
+		System.out.print("ì˜ì–´ì ìˆ˜>>");
 		String strEng = scanner.nextLine();
 		int intEng = Integer.valueOf(strEng);
 		gradeVO.setIntEng(intEng);
 		
-		System.out.print("¼öÇÐÁ¡¼ö>>");
+		System.out.print("ìˆ˜í•™ì ìˆ˜>>");
 		String strMath = scanner.nextLine();
 		int intMath = Integer.valueOf(strMath);
 		gradeVO.setIntMath(intMath);		

@@ -1,4 +1,4 @@
-package com.blz.arrays;
+ï»¿package com.blz.arrays;
 
 public class ScoreArray04 {
 
@@ -9,8 +9,8 @@ public class ScoreArray04 {
 			intMath[i] = ConstMethod.makeScore();
 		}
 		
-		//À§¿¡¼­ »ı¼ºÇÑ intMath ¹è¿­ÀÇ °ªÁß¿¡¼­ 60ÀÌ»óÀÎ °ªÀÌ ³ªÅ¸³ª¸é
-		//±×°ª¸¸ console¿¡ Ãâ·Â 
+		//ìœ„ì—ì„œ ìƒì„±í•œ intMath ë°°ì—´ì˜ ê°’ì¤‘ì—ì„œ 60ì´ìƒì¸ ê°’ì´ ë‚˜íƒ€ë‚˜ë©´
+		//ê·¸ê°’ë§Œ consoleì— ì¶œë ¥ 
 		
 		for(int i=0; i<intMath.length; i++) {
 			if(intMath[i]>=60) {
@@ -18,7 +18,7 @@ public class ScoreArray04 {
 			}
 		}
 		
-		//60ÀÌ»óÀÎ °ªÀÌ ³ªÅ¸³ª¸é ±×°ªÀÌ À§Ä¡ÇÑ index¸¦ Ãâ·Â
+		//60ì´ìƒì¸ ê°’ì´ ë‚˜íƒ€ë‚˜ë©´ ê·¸ê°’ì´ ìœ„ì¹˜í•œ indexë¥¼ ì¶œë ¥
 		
 		for(int i=0; i<intMath.length; i++) {
 			if(intMath[i]>=60) {
@@ -26,8 +26,8 @@ public class ScoreArray04 {
 			}
 		}
 		
-		//À§¿¡¼­ »ı¼ºÇÑ intMath ¹è¿­ÀÇ °ªÁß¿¡¼­ ÀÌ»óÀÎ °ªÀÌ ³ªÅ¸³ª¸é
-		//±×°ªµéÀÇ ÇÕÀ» console¿¡ Ãâ·Â 
+		//ìœ„ì—ì„œ ìƒì„±í•œ intMath ë°°ì—´ì˜ ê°’ì¤‘ì—ì„œ ì´ìƒì¸ ê°’ì´ ë‚˜íƒ€ë‚˜ë©´
+		//ê·¸ê°’ë“¤ì˜ í•©ì„ consoleì— ì¶œë ¥ 
 		int intSum=0;
 		for(int i=0; i<intMath.length; i++) {
 			if(intMath[i]>=80) {
@@ -36,12 +36,12 @@ public class ScoreArray04 {
 		}
 		System.out.println(intSum);
 		
-		//À§¿¡¼­ »ı¼ºÇÑ intMath ¹è¿­ÀÇ °ªÁß¿¡¼­ 80ÀÌ»óÀÎ °ªÀÌ ÃÖÃÊ·Î ³ªÅ¸³¯¶§
-		//¸î¹øÂ°ÀÎÁö console¿¡ Ãâ·Â
+		//ìœ„ì—ì„œ ìƒì„±í•œ intMath ë°°ì—´ì˜ ê°’ì¤‘ì—ì„œ 80ì´ìƒì¸ ê°’ì´ ìµœì´ˆë¡œ ë‚˜íƒ€ë‚ ë•Œ
+		//ëª‡ë²ˆì§¸ì¸ì§€ consoleì— ì¶œë ¥
 		for(int i=0; i<intMath.length; i++) {
 			if(intMath[i]>=80) {
 				System.out.println(i);
-				break;//returnÀº ÀÌÈÄÀÇ ÄÚµå´Â ÁøÇàµÇÁö ¾Ê°Ô µÈ´Ù.
+				break;//returnì€ ì´í›„ì˜ ì½”ë“œëŠ” ì§„í–‰ë˜ì§€ ì•Šê²Œ ëœë‹¤.
 			}
 		}
 	}

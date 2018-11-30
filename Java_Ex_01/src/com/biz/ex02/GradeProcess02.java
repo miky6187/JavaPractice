@@ -1,4 +1,4 @@
-package com.biz.ex02;
+ï»¿package com.biz.ex02;
 
 public class GradeProcess02 {
 
@@ -6,23 +6,23 @@ public class GradeProcess02 {
 		// TODO Auto-generated method stub
 		for( int stu =1; stu<=5; stu++) {
 			System.out.println("**************");
-			System.out.println("ÇÐ»ý"+stu+"ÀÇ ¼ºÀû");
+			System.out.println("í•™ìƒ"+stu+"ì˜ ì„±ì ");
 			int intKor=makeScore();
 			int intEng=makeScore();
 			int intMath=makeScore();
 			int intSci=makeScore();
 			int intHis=makeScore();
 			
-			System.out.println("±¹¾î : "+ intKor);
-			System.out.println("¿µ¾î : "+ intEng);
-			System.out.println("¼öÇÐ : "+ intMath);
-			System.out.println("°úÇÐ : "+ intSci);
-			System.out.println("±¹»ç : "+ intHis);
+			System.out.println("êµ­ì–´ : "+ intKor);
+			System.out.println("ì˜ì–´ : "+ intEng);
+			System.out.println("ìˆ˜í•™ : "+ intMath);
+			System.out.println("ê³¼í•™ : "+ intSci);
+			System.out.println("êµ­ì‚¬ : "+ intHis);
 			
 			int stuSum=gradeSum(intKor, intEng, intMath, intSci, intHis);
 			
-			System.out.println("ÃÑÇÕ : "+ stuSum);
-			System.out.println("Æò±Õ : "+ stuSum/5.0f);
+			System.out.println("ì´í•© : "+ stuSum);
+			System.out.println("í‰ê·  : "+ stuSum/5.0f);
 			
 		}
 

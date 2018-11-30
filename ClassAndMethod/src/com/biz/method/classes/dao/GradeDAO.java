@@ -1,4 +1,4 @@
-package com.biz.method.classes.dao;
+ï»¿package com.biz.method.classes.dao;
 
 import com.biz.method.classes.vo.GradeVO;
 
@@ -10,7 +10,7 @@ public class GradeDAO {
 	}
 	
 	public void makeGrade() {
-		//TODO Æò±Õ°ú ÃÑÁ¡ °è»êÇÏ±â
+		//TODO í‰ê· ê³¼ ì´ì  ê³„ì‚°í•˜ê¸°
 		makeSum();
 		
 		
@@ -28,36 +28,36 @@ public class GradeDAO {
 	}
 
 	public void viewSum() {
-		//TODO ÃÑÁ¡±¸ÇÏ±â
+		//TODO ì´ì êµ¬í•˜ê¸°
 		makeSum();
 		System.out.println("=============");
-		System.out.println("ÃÑÁ¡"+this.gradeVO.getIntSum());
+		System.out.println("ì´ì "+this.gradeVO.getIntSum());
 		System.out.println("=============");
 		
 	}
 	public void viewAvg() {
-		//TODO ÃÑÁ¡±¸ÇÏ±â
+		//TODO ì´ì êµ¬í•˜ê¸°
 		makeSum();
 		int intSum =this.gradeVO.getIntSum();
 		
 		float floatAvg =(float) intSum/5;
 		System.out.println("=============");
-		System.out.println("Æò±Õ"+floatAvg);
+		System.out.println("í‰ê· "+floatAvg);
 		System.out.println("=============");
 		
 	}
 	
 	public void gradeView() {
 		System.out.println("=============");
-		System.out.println("ÇĞ»ı¼ºÀûÁ¤º¸");
-		System.out.println("ÇĞ¹ø"+gradeVO.getStrNum());
-		System.out.println("ÀÌ¸§"+gradeVO.getStrName());
+		System.out.println("í•™ìƒì„±ì ì •ë³´");
+		System.out.println("í•™ë²ˆ"+gradeVO.getStrNum());
+		System.out.println("ì´ë¦„"+gradeVO.getStrName());
 		System.out.println("--------------");
-		System.out.println("±¹¾î"+gradeVO.getIntKor());
-		System.out.println("¿µ¾î"+gradeVO.getIntEng());
-		System.out.println("¼öÇĞ"+gradeVO.getIntMath());
-		System.out.println("°úÇĞ"+gradeVO.getIntSci());
-		System.out.println("±¹»ç"+gradeVO.getIntHis());
+		System.out.println("êµ­ì–´"+gradeVO.getIntKor());
+		System.out.println("ì˜ì–´"+gradeVO.getIntEng());
+		System.out.println("ìˆ˜í•™"+gradeVO.getIntMath());
+		System.out.println("ê³¼í•™"+gradeVO.getIntSci());
+		System.out.println("êµ­ì‚¬"+gradeVO.getIntHis());
 		System.out.println("--------------");
 	}
 

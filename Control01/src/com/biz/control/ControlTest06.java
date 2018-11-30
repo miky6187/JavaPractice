@@ -1,4 +1,4 @@
-package com.biz.control;
+ï»¿package com.biz.control;
 
 public class ControlTest06 {
 
@@ -7,14 +7,14 @@ public class ControlTest06 {
 int intNum = 0;
 		
 		if( (intNum++ % 2) == 0) 
-			System.out.println((intNum-1) + ": Â¦¼ö");
+			System.out.println((intNum-1) + ": ì§ìˆ˜");
 		else
-			System.out.println((intNum-1) + ": È¦¼ö");
+			System.out.println((intNum-1) + ": í™€ìˆ˜");
 
 		if( (intNum % 2) == 0) 
-			System.out.println(intNum++ + ": Â¦¼ö");
+			System.out.println(intNum++ + ": ì§ìˆ˜");
 		else
-			System.out.println(intNum++ + ": È¦¼ö");
+			System.out.println(intNum++ + ": í™€ìˆ˜");
 		
 
 	}

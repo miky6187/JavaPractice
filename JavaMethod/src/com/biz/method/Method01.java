@@ -1,30 +1,30 @@
-package com.biz.method;
+ï»¿package com.biz.method;
 
 public class Method01 {
 	
 	/*
-	 * int a=0;//¸í·É¹®, statement
+	 * int a=0;//ëª…ë ¹ë¬¸, statement
 	 * 
-	 * if(){ //¸í·É±¸¹®
+	 * if(){ //ëª…ë ¹êµ¬ë¬¸
 	 * ....
 	 * ...
 	 * ....
 	 * }
 	 * 
-	 * method : Java¿¡ ¾ø´Â »õ·Î¿î ¸í·É¹®À» »ı¼ºÇÏ´Â °Í 
+	 * method : Javaì— ì—†ëŠ” ìƒˆë¡œìš´ ëª…ë ¹ë¬¸ì„ ìƒì„±í•˜ëŠ” ê²ƒ 
 	 * 
 	 */
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int intNum =0;
-		intNum = 3+4;//¿À¸¥ÂÊ¿¡ ¾²ÀÎ°ÍÀº ½Ä
+		intNum = 3+4;//ì˜¤ë¥¸ìª½ì— ì“°ì¸ê²ƒì€ ì‹
 		intNum=10*100;
 		
 		
-		//ÇÏ´Â ÀÏÀÌ ¾Æ¹«°Íµµ ¾ø´Â ¸í·É¹®À» ½ÇÇà
+		//í•˜ëŠ” ì¼ì´ ì•„ë¬´ê²ƒë„ ì—†ëŠ” ëª…ë ¹ë¬¸ì„ ì‹¤í–‰
 		numMethod();
-		//´ë½Å ÀÏÀ» ½ÃÅ² °Í
+		//ëŒ€ì‹  ì¼ì„ ì‹œí‚¨ ê²ƒ
 		viewM();
 		
 		int intN =numMethod();
@@ -34,16 +34,16 @@ public class Method01 {
 	}
 	public static int plusM(){
 		return 3+4;
-		//void°¡ ¾Æ´Ñ typeÇü method¿¡¼­´Â return¹®ÀÌ ¹İµå½Ã ÀÖ¾î¾ß ÇÑ´Ù
-		//type¿¡ ¸Â°Ô return¹® µÚ¿¡ ¾´´Ù.
+		//voidê°€ ì•„ë‹Œ typeí˜• methodì—ì„œëŠ” returnë¬¸ì´ ë°˜ë“œì‹œ ìˆì–´ì•¼ í•œë‹¤
+		//typeì— ë§ê²Œ returnë¬¸ ë’¤ì— ì“´ë‹¤.
 	}
 	
 	public static void viewM() {
-		System.out.println("¹İ°©½À´Ï´Ù");
-	}//=ÀÇ ¿À¸¥ÂÊ¿¡ ¾µ ¼ö ¾ø´Ù.
-	//void keyword°¡ Æ÷ÇÔµÈ method¿¡¼­ 
-	//return¸í·É¹®À» »ç¿ëÇÏ¸é ±× ¾Æ·¡ÂÊ ¸ğµç ¸í·É¹®À» ¹«½ÃÇÏ¶ó´Â °Í
-	// Áß´Ü
+		System.out.println("ë°˜ê°‘ìŠµë‹ˆë‹¤");
+	}//=ì˜ ì˜¤ë¥¸ìª½ì— ì“¸ ìˆ˜ ì—†ë‹¤.
+	//void keywordê°€ í¬í•¨ëœ methodì—ì„œ 
+	//returnëª…ë ¹ë¬¸ì„ ì‚¬ìš©í•˜ë©´ ê·¸ ì•„ë˜ìª½ ëª¨ë“  ëª…ë ¹ë¬¸ì„ ë¬´ì‹œí•˜ë¼ëŠ” ê²ƒ
+	// ì¤‘ë‹¨
 	
 	public static int numMethod() {
 		return 0;

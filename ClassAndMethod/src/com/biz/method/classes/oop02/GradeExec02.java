@@ -1,4 +1,4 @@
-package com.biz.method.classes.oop02;
+ï»¿package com.biz.method.classes.oop02;
 
 import com.biz.method.classes.dao.GradeDAO;
 
@@ -9,7 +9,7 @@ public class GradeExec02 {
 		GradeDAO dao =new GradeDAO();
 		
 		dao.gradeVO.setStrNum("002");
-		dao.gradeVO.setStrName("¼ºÃáÇâ");
+		dao.gradeVO.setStrName("ì„±ì¶˜í–¥");
 		dao.gradeVO.setIntKor(makeScore());
 		dao.gradeVO.setIntEng(makeScore());
 		dao.gradeVO.setIntMath(makeScore());
@@ -18,12 +18,12 @@ public class GradeExec02 {
 		
 		dao.makeGrade();
 		System.out.println("===========");
-		System.out.println("ÃÑÁ¡");
+		System.out.println("ì´ì ");
 
 	}
 	
 	
-	//main³»ºÎ¿¡¼­ mainÀÌ »ç¿ëÇÏ´Â methodµéÀº staticÀÌ ºÙ´Â´Ù.
+	//mainë‚´ë¶€ì—ì„œ mainì´ ì‚¬ìš©í•˜ëŠ” methodë“¤ì€ staticì´ ë¶™ëŠ”ë‹¤.
 	public static int makeScore() {
 		return (int)(Math.random()*(100-0+1));
 	}

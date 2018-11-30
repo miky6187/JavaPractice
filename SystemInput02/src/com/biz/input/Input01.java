@@ -1,4 +1,4 @@
-package com.biz.input;
+ï»¿package com.biz.input;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class Input01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("¹®ÀÚ¿­À» ÀÔ·Â ÈÄ Enter");
+		System.out.print("ë¬¸ìžì—´ì„ ìž…ë ¥ í›„ Enter");
 		String strName = scanner.nextLine();
 		System.out.println(">>");
 		

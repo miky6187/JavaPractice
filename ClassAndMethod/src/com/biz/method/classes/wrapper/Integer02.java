@@ -1,4 +1,4 @@
-package com.biz.method.classes.wrapper;
+ï»¿package com.biz.method.classes.wrapper;
 
 public class Integer02 {
 
@@ -10,12 +10,12 @@ public class Integer02 {
 		
 		System.out.println(integerNum1.toString());
 		System.out.println(Integer.valueOf(intNum1));
-		//µÑÀÌ °°À½
+		//ë‘˜ì´ ê°™ìŒ
 		
 		System.out.println(Integer.valueOf(intNum1));
-		System.out.println("(HEX)16Áø¼ö :"+Integer.toHexString(intNum1));
-		System.out.println("(OCT)8Áø¼ö :"+Integer.toOctalString(intNum1));
-		System.out.println("(BIN)2Áø¼ö :"+Integer.toBinaryString(intNum1));
+		System.out.println("(HEX)16ì§„ìˆ˜ :"+Integer.toHexString(intNum1));
+		System.out.println("(OCT)8ì§„ìˆ˜ :"+Integer.toOctalString(intNum1));
+		System.out.println("(BIN)2ì§„ìˆ˜ :"+Integer.toBinaryString(intNum1));
 		
 		
 		

@@ -1,4 +1,4 @@
-package com.biz.num;
+ï»¿package com.biz.num;
 
 public class MaxminNumber {
 
@@ -7,22 +7,22 @@ public class MaxminNumber {
 		
 		
 		
-		//Á¤¼ö : int, Integer
+		//ì •ìˆ˜ : int, Integer
 		System.out.println(Integer.MIN_VALUE);
 		System.out.println(20);
 		System.out.println(Integer.MAX_VALUE);
 		
-		//Á¤¼ö Áß 8byte Å©±â´Â long, Long
+		//ì •ìˆ˜ ì¤‘ 8byte í¬ê¸°ëŠ” long, Long
 		System.out.println(Long.MIN_VALUE);
 		System.out.println(Long.MAX_VALUE);
 		
-		//½Ç¼ö float, Float (´ÜÁ¤µµ ½Ç¼ö)
-		//¼Ò¼öÁ¡ 6-7ÀÚ¸®±îÁö 
+		//ì‹¤ìˆ˜ float, Float (ë‹¨ì •ë„ ì‹¤ìˆ˜)
+		//ì†Œìˆ˜ì  6-7ìë¦¬ê¹Œì§€ 
 		System.out.println(Float.MIN_VALUE);
 		System.out.println(Float.MAX_VALUE);
 		
-		//Á¤¹Ğµµ°¡ Á» ³ôÀº ½Ç¼ö double, Double(¹èÁ¤µµ ½Ç¼ö)
-		//¼Ò¼öÁ¡ 16ÀÚ¸® ±îÁö
+		//ì •ë°€ë„ê°€ ì¢€ ë†’ì€ ì‹¤ìˆ˜ double, Double(ë°°ì •ë„ ì‹¤ìˆ˜)
+		//ì†Œìˆ˜ì  16ìë¦¬ ê¹Œì§€
 		System.out.println(Double.MIN_VALUE);
 		System.out.println(Double.MAX_VALUE);
 

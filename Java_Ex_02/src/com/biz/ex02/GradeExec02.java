@@ -1,4 +1,4 @@
-package com.biz.ex02;
+ï»¿package com.biz.ex02;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,19 +16,19 @@ public class GradeExec02 {
 		for(int i=0; i<5; i++) {
 			GradeVO vo =new GradeVO();
 			
-			// GradeVO¸¦ vo·Î »ı¼ºÇØ¼­ vo¶õ °´Ã¼¸¦ method¿¡ º¸³¿
+			// GradeVOë¥¼ voë¡œ ìƒì„±í•´ì„œ voë€ ê°ì²´ë¥¼ methodì— ë³´ëƒ„
 			
-			//vo´Â method¿¡¼­ ¼³Á¤µÈ °ªÀ» Áö´Ï°í µ¹¾Æ¿Â´Ù.
+			//voëŠ” methodì—ì„œ ì„¤ì •ëœ ê°’ì„ ì§€ë‹ˆê³  ëŒì•„ì˜¨ë‹¤.
 			
-			//±×¸®°í gradeList¿¡ vo¸¦ ´õÇÑ´Ù.
+			//ê·¸ë¦¬ê³  gradeListì— voë¥¼ ë”í•œë‹¤.
 			gradeList.add(vo);
 		}
 		
 		System.out.println("=====================================");
-		System.out.println("ÇĞ¹ø\t±¹¾î\t¿µ¾î\t¼öÇĞ\tÃÑÇÕ\tÆò±Õ");
+		System.out.println("í•™ë²ˆ\têµ­ì–´\tì˜ì–´\tìˆ˜í•™\tì´í•©\tí‰ê· ");
 		System.out.println("-------------------------------------");
 		
-		//È®ÀåµÈ for À» ÀÌ¿ëÇÑ ¹æ¹ı
+		//í™•ì¥ëœ for ì„ ì´ìš©í•œ ë°©ë²•
 		for(GradeVO vo : gradeList) {
 			viewScore(vo);
 		}
@@ -38,16 +38,16 @@ public class GradeExec02 {
 	public static void makeScore(GradeVO vo) {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("ÇĞ¹ø>>");
+		System.out.print("í•™ë²ˆ>>");
 		vo.setStrNum(scanner.nextLine());
 		
-		System.out.print("±¹¾îÁ¡¼ö : ");
+		System.out.print("êµ­ì–´ì ìˆ˜ : ");
 		vo.setIntKor(Integer.valueOf(scanner.nextLine()));
 		
-		System.out.print("¿µ¾îÁ¡¼ö : ");
+		System.out.print("ì˜ì–´ì ìˆ˜ : ");
 		vo.setIntEng(Integer.valueOf(scanner.nextLine()));
 		
-		System.out.print("¼öÇĞÁ¡¼ö : ");
+		System.out.print("ìˆ˜í•™ì ìˆ˜ : ");
 		vo.setIntMath(Integer.valueOf(scanner.nextLine()));
 		
 		vo.setIntSum(vo.getIntKor()+vo.getIntEng()+vo.getIntMath());

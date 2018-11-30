@@ -1,4 +1,4 @@
-package com.biz.control;
+ï»¿package com.biz.control;
 
 public class ControlTest03 {
 
@@ -10,52 +10,52 @@ public class ControlTest03 {
 		
 		// if(even == true) {
 		if(even) {
-			// evenÀÌ trueÀÏ¶§ ½ÇÇàÇÒ ¸í·É¹®µé
-			System.out.println("Â¦¼ö ¸Â³×!!");
-			System.out.print("º¯¼öÀÇ °ªÀº ");
+			// evenì´ trueì¼ë•Œ ì‹¤í–‰í•  ëª…ë ¹ë¬¸ë“¤
+			System.out.println("ì§ìˆ˜ ë§ë„¤!!");
+			System.out.print("ë³€ìˆ˜ì˜ ê°’ì€ ");
 			System.out.print(intNum1);
-			System.out.println(" ÀÔ´Ï´Ù");
+			System.out.println(" ì…ë‹ˆë‹¤");
 		} else {
-			// evenÀÌ falseÀÏ¶§ ½ÇÇàÇÒ ¸í·É¹®µé
-			System.out.println("¾Æ´Ï¾ß È¦¼ö¾ß!!");
+			// evenì´ falseì¼ë•Œ ì‹¤í–‰í•  ëª…ë ¹ë¬¸ë“¤
+			System.out.println("ì•„ë‹ˆì•¼ í™€ìˆ˜ì•¼!!");
 		}
-		//if¹®, ºñ±³ÆÇ´Ü¹®
-		//if(º¯¼ö, ½Ä) {} : ¸¸¾à º¯¼ö³ª ½ÄÀÌ trueÀÎ°¡
-		//			¾Æ´Ñ°¡¸¦ ÆÇ´ÜÇØ¼­
-		//			¸í·É¹®ÀÇ Èå¸§À» ¹Ù²Ù´Â keyword
+		//ifë¬¸, ë¹„êµíŒë‹¨ë¬¸
+		//if(ë³€ìˆ˜, ì‹) {} : ë§Œì•½ ë³€ìˆ˜ë‚˜ ì‹ì´ trueì¸ê°€
+		//			ì•„ë‹Œê°€ë¥¼ íŒë‹¨í•´ì„œ
+		//			ëª…ë ¹ë¬¸ì˜ íë¦„ì„ ë°”ê¾¸ëŠ” keyword
 		
 		if(intMode == 0) {
-			System.out.println("Â¦¼ú¶ó´Ï±î!!!");
+			System.out.println("ì§ìˆ ë¼ë‹ˆê¹Œ!!!");
 		}
-		// intMode == 0 ÀÇ °á°ú°¡ falseÀÌ¸é
-		// À§ ¹®À» °Ç³Ê ¶Ú´Ù.
+		// intMode == 0 ì˜ ê²°ê³¼ê°€ falseì´ë©´
+		// ìœ„ ë¬¸ì„ ê±´ë„ˆ ë›´ë‹¤.
 		
-		// intMode´Â 0¾Æ´Ï¸é 1ÀÎ °ªÀ» ´ç¿¬È÷ °®´Â´Ù
-		// ¶ó°í »ı°¢ÇÏÁö¸¸
-		// ¾î¶² ºÒ°¡Ç×·ÂÀûÀÎ ÀÌÀ¯·Î 0°ú 1ÀÌ ¾Æ´Ñ
-		// °ªÀ» °¡Áú¼ö ÀÖ´Ù.
-		// ±×·¡¼­ ±âÁØÀÌ µÇ´Â intMode == 0 ¶ó´Â ½ÄÀÇ
-		// ¹İ´ëµÇ´Â °³³äÀº intMode == 1ÀÌ¾Æ´Ñ
-		// intMode != 0 ÀÌ¶ó´Â »ı°¢À» ÇØ¾ß ÇÑ´Ù.
+		// intModeëŠ” 0ì•„ë‹ˆë©´ 1ì¸ ê°’ì„ ë‹¹ì—°íˆ ê°–ëŠ”ë‹¤
+		// ë¼ê³  ìƒê°í•˜ì§€ë§Œ
+		// ì–´ë–¤ ë¶ˆê°€í•­ë ¥ì ì¸ ì´ìœ ë¡œ 0ê³¼ 1ì´ ì•„ë‹Œ
+		// ê°’ì„ ê°€ì§ˆìˆ˜ ìˆë‹¤.
+		// ê·¸ë˜ì„œ ê¸°ì¤€ì´ ë˜ëŠ” intMode == 0 ë¼ëŠ” ì‹ì˜
+		// ë°˜ëŒ€ë˜ëŠ” ê°œë…ì€ intMode == 1ì´ì•„ë‹Œ
+		// intMode != 0 ì´ë¼ëŠ” ìƒê°ì„ í•´ì•¼ í•œë‹¤.
 		if(intMode == 1) {} 
 		if(intMode != 0) {
 			
 		}
 		
 		if(intMode == 0) {
-			System.out.println("Â¦¼ö¸¸¼¼");
+			System.out.println("ì§ìˆ˜ë§Œì„¸");
 		} else {
-			System.out.println("È¦¼ö¸¸¼¼");
+			System.out.println("í™€ìˆ˜ë§Œì„¸");
 		}
 		
 		if(intMode == 0) {
-			System.out.println("Â¦¼ö¸¸¼¼");
+			System.out.println("ì§ìˆ˜ë§Œì„¸");
 		}
 		if(intMode != 0) {
-			System.out.println("È¦¼ö¸¸¼¼");
+			System.out.println("í™€ìˆ˜ë§Œì„¸");
 		}
 		if(intMode == 1) {
-			System.out.println("È¦¼ö¸¸¼¼");
+			System.out.println("í™€ìˆ˜ë§Œì„¸");
 		}
 
 	}

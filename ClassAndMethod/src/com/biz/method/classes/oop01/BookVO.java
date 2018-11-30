@@ -1,11 +1,11 @@
-package com.biz.method.classes.oop01;
+ï»¿package com.biz.method.classes.oop01;
 
 public class BookVO {
 	
-	// ¸¸¾à Book(Ã¥)À» ±¸ÀÔÇÑ´Ù¸é ±¸ÀÔÇÏ´Â ±âÁØÀÌ µÇ´Â ÃÖ¼ÒÇÑÀÇ ¼±ÅÃÁ¤º¸¸¦ 
-	// ÀúÀåÇÒ º¯¼öµéÀ» ¼±¾ð
+	// ë§Œì•½ Book(ì±…)ì„ êµ¬ìž…í•œë‹¤ë©´ êµ¬ìž…í•˜ëŠ” ê¸°ì¤€ì´ ë˜ëŠ” ìµœì†Œí•œì˜ ì„ íƒì •ë³´ë¥¼ 
+	// ì €ìž¥í•  ë³€ìˆ˜ë“¤ì„ ì„ ì–¸
 	
-	//¼Ó¼º(Property)µé : ±âÁØ, Á¤º¸
+	//ì†ì„±(Property)ë“¤ : ê¸°ì¤€, ì •ë³´
 	String strName;
 	String strAuth;
 	String strComp;
@@ -13,6 +13,6 @@ public class BookVO {
 	int intDC;
 	
 	
-	// ¿Ö?) ¿©·¯°³ÀÇ º¯¼ö¸¦ ÇÏ³ª·Î ¹­¾î¼­ ½±°Ô °ü¸®ÇÏ±â À§ÇÔ
+	// ì™œ?) ì—¬ëŸ¬ê°œì˜ ë³€ìˆ˜ë¥¼ í•˜ë‚˜ë¡œ ë¬¶ì–´ì„œ ì‰½ê²Œ ê´€ë¦¬í•˜ê¸° ìœ„í•¨
 	
 }

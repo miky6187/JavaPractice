@@ -1,4 +1,4 @@
-package com.biz.ex.vo;
+﻿package com.biz.ex.vo;
 
 public class UserVO {
 	

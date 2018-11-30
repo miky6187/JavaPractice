@@ -1,4 +1,4 @@
-package com.biz.method.classes.vo;
+ï»¿package com.biz.method.classes.vo;
 
 public class MemberVO {
 	
@@ -38,11 +38,11 @@ public class MemberVO {
 	}
 	public void setIntAge(int intAge) {
 		if(intAge < 1) {
-			System.out.println("³ªÀÌ´Â 0¼¼ º¸´Ù ¸¹¾Æ¾ß ÇÕ´Ï´Ù");
+			System.out.println("ë‚˜ì´ëŠ” 0ì„¸ ë³´ë‹¤ ë§ì•„ì•¼ í•©ë‹ˆë‹¤");
 			return ;
 		}
 		if(intAge > 100) {
-			System.out.println("³ªÀÌ´Â 100¼¼º¸´Ù Àû¾î¾ßÇÕ´Ï´Ù");
+			System.out.println("ë‚˜ì´ëŠ” 100ì„¸ë³´ë‹¤ ì ì–´ì•¼í•©ë‹ˆë‹¤");
 			return ;
 		}
 		this.intAge = intAge;

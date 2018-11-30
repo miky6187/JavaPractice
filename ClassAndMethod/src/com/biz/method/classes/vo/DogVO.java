@@ -1,4 +1,4 @@
-package com.biz.method.classes.vo;
+﻿package com.biz.method.classes.vo;
 
 public class DogVO {
 	

@@ -1,4 +1,4 @@
-package com.biz.word;
+﻿package com.biz.word;
 
 public class WordExec03 {
 

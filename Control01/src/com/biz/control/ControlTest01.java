@@ -1,4 +1,4 @@
-package com.biz.control;
+ï»¿package com.biz.control;
 
 public class ControlTest01 {
 
@@ -9,8 +9,8 @@ public class ControlTest01 {
 		int intNum1 = 30;
 		int intNum2 = 40;
 		
-		// +-*/ % : »ê¼ú¿¬»êÀÚ
-		// <> = : ºñ±³¿¬»êÀÚ, °ü°è¿¬»êÀÚ
+		// +-*/ % : ì‚°ìˆ ì—°ì‚°ì
+		// <> = : ë¹„êµì—°ì‚°ì, ê´€ê³„ì—°ì‚°ì
 		bTest = (intNum1 < intNum2); // true
 		System.out.println(bTest);
 		
@@ -26,7 +26,7 @@ public class ControlTest01 {
 		bTest = (intNum1 >= intNum2); // false
 		System.out.println(bTest);
 
-		// ¼­·Î ´Ù¸£³Ä?
+		// ì„œë¡œ ë‹¤ë¥´ëƒ?
 		bTest = (intNum1 != intNum2); // true
 		System.out.println(bTest);
 		

@@ -1,4 +1,4 @@
-package com.biz.printout;
+ï»¿package com.biz.printout;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -29,19 +29,19 @@ public class GradeToPrint01 {
 		}
 		
 		/*
-		 * À§¿¡¼­ »ı¼ºµÈ gradeList¸¦ È°¿ëÇÏ¿©
-		 * ../gradeList.txt ÆÄÀÏÀ» »ı¼ºÇÏ½Ã¿À.
-		 * °¢ ¶óÀÎÀÇ ±¸¼ºÀº 
-		 * ÇĞ¹ø:±¹¾îÁ¡¼ö:¿µ¾îÁ¡¼ö:¼öÇĞÁ¡¼ö
+		 * ìœ„ì—ì„œ ìƒì„±ëœ gradeListë¥¼ í™œìš©í•˜ì—¬
+		 * ../gradeList.txt íŒŒì¼ì„ ìƒì„±í•˜ì‹œì˜¤.
+		 * ê° ë¼ì¸ì˜ êµ¬ì„±ì€ 
+		 * í•™ë²ˆ:êµ­ì–´ì ìˆ˜:ì˜ì–´ì ìˆ˜:ìˆ˜í•™ì ìˆ˜
 		 * ex)1:90:80:70
-		 * Çü½ÄÀ¸·Î ÀúÀåÇÏ½Ã¿À.
+		 * í˜•ì‹ìœ¼ë¡œ ì €ì¥í•˜ì‹œì˜¤.
 		 */
 		
 		String printFile = "D:/bizwork/workspace/ExFiles/gradeList.txt";
 		PrintWriter pw = null;
 		try {
 			pw = new PrintWriter(printFile);
-			//pw.println("ÇĞ¹ø:±¹¾îÁ¡¼ö:¿µ¾îÁ¡¼ö:¼öÇĞÁ¡¼ö");
+			//pw.println("í•™ë²ˆ:êµ­ì–´ì ìˆ˜:ì˜ì–´ì ìˆ˜:ìˆ˜í•™ì ìˆ˜");
 			for(int i=0; i<30; i++) {
 				pw.print(gradeList.get(i).getStrNum()+":");
 				pw.print(gradeList.get(i).getIntKor()+":");
@@ -49,7 +49,7 @@ public class GradeToPrint01 {
 				pw.print(gradeList.get(i).getIntMath()+"\r\n");
 			}
 			pw.close();
-			System.out.println("ÀúÀå ¿Ï·á");
+			System.out.println("ì €ì¥ ì™„ë£Œ");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

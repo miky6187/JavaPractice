@@ -1,4 +1,4 @@
-package com.biz.method.classes.oop01;
+ï»¿package com.biz.method.classes.oop01;
 
 import com.biz.method.classes.dao.DogDAO;
 
@@ -8,13 +8,13 @@ public class DogExec01 {
 		// TODO Auto-generated method stub
 		
 		DogDAO dogDao = new DogDAO();
-		dogDao.dogVO.setStrName("¸ùÅÊÀÌ");
+		dogDao.dogVO.setStrName("ëª½íƒ±ì´");
 		
 		dogDao.dogRun();
 		dogDao.goEat();
 		
-		dogDao.dogRun("¿îµ¿Àå");
-		dogDao.goEat("Ä¡Áî");
+		dogDao.dogRun("ìš´ë™ì¥");
+		dogDao.goEat("ì¹˜ì¦ˆ");
 		
 		
 

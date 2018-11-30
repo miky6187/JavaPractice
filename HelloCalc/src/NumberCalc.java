@@ -1,18 +1,18 @@
-
+ï»¿
 public class NumberCalc {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//»çÄ¢¿¬»êÀ» ÄÜ¼Ö¿¡ Ç¥½ÃÇÏ´Â ÄÚµå¸¦ ÀÛ¼ºÇÑ°Í
+		//ì‚¬ì¹™ì—°ì‚°ì„ ì½˜ì†”ì— í‘œì‹œí•˜ëŠ” ì½”ë“œë¥¼ ì‘ì„±í•œê²ƒ
 		System.out.println(50+30);
 		System.out.println(50-30);
 		System.out.println(50*30);
 		System.out.println(50/30);
 		System.out.println(50%30);
-		/*+´Â ´õÇÏ±â
-		 *-´Â  »¬¼À
-		 **´Â °ö¼À
-		 *%´Â ³ª´©±âÀÇ ³ª¸ÓÁö
+		/*+ëŠ” ë”í•˜ê¸°
+		 *-ëŠ”  ëº„ì…ˆ
+		 **ëŠ” ê³±ì…ˆ
+		 *%ëŠ” ë‚˜ëˆ„ê¸°ì˜ ë‚˜ë¨¸ì§€
 		 */
 
 	}   

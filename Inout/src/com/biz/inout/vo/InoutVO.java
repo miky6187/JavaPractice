@@ -1,19 +1,19 @@
-package com.biz.inout.vo;
+ï»¿package com.biz.inout.vo;
 
 import java.text.SimpleDateFormat;
 
 public class InoutVO {
-	//¸â¹öº¯¼ö ¿µ¿ª
+	//ë©¤ë²„ë³€ìˆ˜ ì˜ì—­
 	private String strDate;
 	private String strIO;
 	private int intDanga;
 	private int intSu;
 	private byte vat;
-	private int intTotal;//Á¤º¸ÀÇ Àº´Ğ : ¿ÜºÎ¿¡¼­ Á¢±ÙÇÒ ¼ö ¾øµµ·Ï ÇÔ
+	private int intTotal;//ì •ë³´ì˜ ì€ë‹‰ : ì™¸ë¶€ì—ì„œ ì ‘ê·¼í•  ìˆ˜ ì—†ë„ë¡ í•¨
 	
 	
-	//Ä¸½¶È­ : getter³ª setter·Î Á¤º¸¿¡ Á¢±Ù
-	//getter, setter¿µ¿ª
+	//ìº¡ìŠí™” : getterë‚˜ setterë¡œ ì •ë³´ì— ì ‘ê·¼
+	//getter, setterì˜ì—­
 	
 	
 	public String getStrDate() {
@@ -26,11 +26,11 @@ public class InoutVO {
 			= new SimpleDateFormat("yyyyMMdd");
 		sd.setLenient(false);
 		try {
-			// ³¯Â¥ À¯È¿¼º°Ë»ç¸¦ ½Ãµµ
+			// ë‚ ì§œ ìœ íš¨ì„±ê²€ì‚¬ë¥¼ ì‹œë„
 			sd.parse(strDate);
 			this.strDate = strDate;
 		} catch (Exception e) {
-			// ¸¸¾à À¯È¿¼º¿¡ ¾î±ß³ª¸é
+			// ë§Œì•½ ìœ íš¨ì„±ì— ì–´ê¸‹ë‚˜ë©´
 			return false;
 			// TODO: handle exception
 			// retOk = false;

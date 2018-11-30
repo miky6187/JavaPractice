@@ -1,18 +1,18 @@
-package com.biz.method.classes;
+ï»¿package com.biz.method.classes;
 
 public class Class02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ScoreVO scoreVO;// scoreVO ¶ó´Â º¯¼ö¸¦ ÁöÁ¤ÇÑ Å°¿öµå ScoreVO 
-		scoreVO= new ScoreVO();// scoreVO¸¦ ÃÊ±âÈ­ÇÏ´Â ¹æ¹ı
+		ScoreVO scoreVO;// scoreVO ë¼ëŠ” ë³€ìˆ˜ë¥¼ ì§€ì •í•œ í‚¤ì›Œë“œ ScoreVO 
+		scoreVO= new ScoreVO();// scoreVOë¥¼ ì´ˆê¸°í™”í•˜ëŠ” ë°©ë²•
 		
 		ScoreVO sVO = new ScoreVO(); 
-		// ³»°¡ ¸¸µç ScoreVO¶ó´Â Å°À§µå¸¦ ÀÌ¿ëÇØ¼­ sVO¶ó´Â º¯¼ö¸¦ ¼±¾ğÇÏ°í 
-		//»ç¿ëÇÏ±â À§ÇØ¼­ ÃÊ±âÈ­(clear)ÇÏ¶ó
+		// ë‚´ê°€ ë§Œë“  ScoreVOë¼ëŠ” í‚¤ìœ„ë“œë¥¼ ì´ìš©í•´ì„œ sVOë¼ëŠ” ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ê³  
+		//ì‚¬ìš©í•˜ê¸° ìœ„í•´ì„œ ì´ˆê¸°í™”(clear)í•˜ë¼
 		
-		scoreVO.strName = "È«±æµ¿";
+		scoreVO.strName = "í™ê¸¸ë™";
 		
 		
 		

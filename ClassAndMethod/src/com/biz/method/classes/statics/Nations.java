@@ -1,20 +1,20 @@
-package com.biz.method.classes.statics;
+ï»¿package com.biz.method.classes.statics;
 
 public class Nations {
 	
-	//staticÀ¸·Î º¯¼ö¸¦ ¼±¾ğÇÏ¸é 
-	//Nations Å¬·¡½º´Â Dynamic¿¡¼­ StaticÀ¸·Î ¹Ù²ï´Ù.
+	//staticìœ¼ë¡œ ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ë©´ 
+	//Nations í´ë˜ìŠ¤ëŠ” Dynamicì—ì„œ Staticìœ¼ë¡œ ë°”ë€ë‹¤.
 	
-	//static class´Â?
-	//ÇÁ·ÎÁ§Æ®½ÃÀÛ°ú µ¿½Ã¿¡ ÀÚµ¿À¸·Î ¸Ş¸ğ¸® ¾îµò°¡¿¡ µî·Ï
-	//´Ù¸¥ .javaÆÄÀÏ¿¡¼­ »ı¼ºÀÚ·Î µî·ÏÇÏÁö ¾Ê¾Æµµ »ç¿ë°¡´É.
-	//ÇÁ·ÎÁ§Æ®°¡ Á¾·áµÉ ¶§±îÁö À¯ÁöµÈ´Ù.
+	//static classëŠ”?
+	//í”„ë¡œì íŠ¸ì‹œì‘ê³¼ ë™ì‹œì— ìë™ìœ¼ë¡œ ë©”ëª¨ë¦¬ ì–´ë”˜ê°€ì— ë“±ë¡
+	//ë‹¤ë¥¸ .javaíŒŒì¼ì—ì„œ ìƒì„±ìë¡œ ë“±ë¡í•˜ì§€ ì•Šì•„ë„ ì‚¬ìš©ê°€ëŠ¥.
+	//í”„ë¡œì íŠ¸ê°€ ì¢…ë£Œë  ë•Œê¹Œì§€ ìœ ì§€ëœë‹¤.
 	
-	public final static String KOREA ="´ëÇÑ¹Î±¹"; //´Ù¸¥ °÷¿¡¼­ º¯°æ ºÒ°¡´É. finalº¯¼ö(»ó¼ö)
-	public static String USA ="¹ÌÇÕÁß±¹";
-	public static String UAE ="¾Æ¶ø¿¡¹Ì¸®Æ® ¿¬ÇÕ";
-	public static String RUSSIA ="·¯½Ã¾Æ";
-	public static String CHINA ="ÁßÈ­ÀÌ¹Î°øÈ­±¹";
+	public final static String KOREA ="ëŒ€í•œë¯¼êµ­"; //ë‹¤ë¥¸ ê³³ì—ì„œ ë³€ê²½ ë¶ˆê°€ëŠ¥. finalë³€ìˆ˜(ìƒìˆ˜)
+	public static String USA ="ë¯¸í•©ì¤‘êµ­";
+	public static String UAE ="ì•„ëì—ë¯¸ë¦¬íŠ¸ ì—°í•©";
+	public static String RUSSIA ="ëŸ¬ì‹œì•„";
+	public static String CHINA ="ì¤‘í™”ì´ë¯¼ê³µí™”êµ­";
 	
 	
 

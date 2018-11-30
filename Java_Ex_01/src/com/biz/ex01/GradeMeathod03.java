@@ -1,4 +1,4 @@
-package com.biz.ex01;
+ï»¿package com.biz.ex01;
 
 public class GradeMeathod03 {
 
@@ -13,8 +13,8 @@ public class GradeMeathod03 {
 		
 		int Sum=gradeSum(intKor, intEng) +gradeSum(intMat, intSci);
 		
-		System.out.printf("±¹¾î : %d, ¿µ¾î : %d, ¼öÇĞ : %d, °úÇĞ : %d, ÃÑÁ¡ : %d\n",intKor, intEng, intMat, intSci, Sum);
-		System.out.println("Æò±Õ : "+((float)Sum/4));
+		System.out.printf("êµ­ì–´ : %d, ì˜ì–´ : %d, ìˆ˜í•™ : %d, ê³¼í•™ : %d, ì´ì  : %d\n",intKor, intEng, intMat, intSci, Sum);
+		System.out.println("í‰ê·  : "+((float)Sum/4));
 		}
 
 	}

@@ -1,4 +1,4 @@
-package com.biz.method.classes.oop02;
+Ôªøpackage com.biz.method.classes.oop02;
 
 import com.biz.method.classes.dao.GradeDAO;
 
@@ -9,7 +9,7 @@ public class GradeExec01 {
 		GradeDAO dao =new GradeDAO();
 		
 		dao.gradeVO.setStrNum("001");
-		dao.gradeVO.setStrName("¿Ã∏˘∑Ê");
+		dao.gradeVO.setStrName("Ïù¥Î™ΩÎ£°");
 		dao.gradeVO.setIntKor(98);
 		dao.gradeVO.setIntEng(88);
 		dao.gradeVO.setIntMath(87);

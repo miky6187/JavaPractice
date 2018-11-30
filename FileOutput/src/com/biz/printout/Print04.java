@@ -1,4 +1,4 @@
-package com.biz.printout;
+﻿package com.biz.printout;
 
 public class Print04 {
 	

@@ -1,17 +1,17 @@
-package com.biz.method.classes.oop01;
+ï»¿package com.biz.method.classes.oop01;
 
 public class BookExec01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		// Å¬·¡½º¸¦ ÀÌ¿ëÇØ¼­ °´Ã¼ ÀÎ½ºÅÏ½º¸¦ »ı¼º(»ı¼º ¹× ÃÊ±âÈ­)
+		// í´ë˜ìŠ¤ë¥¼ ì´ìš©í•´ì„œ ê°ì²´ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„±(ìƒì„± ë° ì´ˆê¸°í™”)
 		BookVO book = new BookVO();
 		
-		//°´Ã¼(ÀÎ½ºÅÏ½º)ÀÇ °¢ ¼Ó¼º(º¯¼ö)¿¡ °ª(Data)
-		book.strName ="¿­Ç÷ÀÚ¹Ù";
-		book.strAuth="À±¼º¿ì";
-		book.strComp="¿À·£Áö ¹Ìµğ¾î";
+		//ê°ì²´(ì¸ìŠ¤í„´ìŠ¤)ì˜ ê° ì†ì„±(ë³€ìˆ˜)ì— ê°’(Data)
+		book.strName ="ì—´í˜ˆìë°”";
+		book.strAuth="ìœ¤ì„±ìš°";
+		book.strComp="ì˜¤ëœì§€ ë¯¸ë””ì–´";
 		book.intPrice=30000;
 		book.intDC=3000;
 		

@@ -1,4 +1,4 @@
-package com.blz.arrays;
+ï»¿package com.blz.arrays;
 
 public class ScoreArray02 {
 
@@ -16,7 +16,7 @@ public class ScoreArray02 {
 		}
 		
 		System.out.println("===========");
-		System.out.println("ÃÑÁ¡");
+		System.out.println("ì´ì ");
 		System.out.println("-----------");
 		
 		int intSum = 0 ;
@@ -24,10 +24,10 @@ public class ScoreArray02 {
 			intSum +=intKor[i];
 		}
 		
-		System.out.print("ÃÑÁ¡ : ");
+		System.out.print("ì´ì  : ");
 		System.out.println(intSum);
 		
-		System.out.print("Æò±Õ : ");
+		System.out.print("í‰ê·  : ");
 		System.out.println(intSum/(float)intNumbers);
 		System.out.println("------------");
 

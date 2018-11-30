@@ -1,4 +1,4 @@
-package com.biz.printout;
+ï»¿package com.biz.printout;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -14,18 +14,18 @@ public class FileWriteAndPrintWrite01 {
 		PrintWriter pw;
 		
 		try {
-			//1. FileWriter¸¦ append¸ğµå·Î ½ÃÀÛÇÏ°í
+			//1. FileWriterë¥¼ appendëª¨ë“œë¡œ ì‹œì‘í•˜ê³ 
 			fw = new FileWriter(printFile, true);
 			pw = new PrintWriter(fw);
 			
-			//2.FileWriter¸¦ PrintWriter¿¡ ¿¬°áÇÏ¸é 
+			//2.FileWriterë¥¼ PrintWriterì— ì—°ê²°í•˜ë©´ 
 			for (int i=0; i<10; i++) {
 				//3.
-				pw.println("¿ì¸®³ª¶ó¸¸¼¼ : "+i);
+				pw.println("ìš°ë¦¬ë‚˜ë¼ë§Œì„¸ : "+i);
 			}
 			pw.close();
 			fw.close();
-			System.out.println("¿Ï·á");
+			System.out.println("ì™„ë£Œ");
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

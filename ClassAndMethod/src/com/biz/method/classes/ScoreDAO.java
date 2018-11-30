@@ -1,10 +1,10 @@
-package com.biz.method.classes;
+ï»¿package com.biz.method.classes;
 
 public class ScoreDAO {
 	
 	ScoreVO scoreVO;
 	
-	//»ı¼ºÀÚ ¸Ş¼Òµå
+	//ìƒì„±ì ë©”ì†Œë“œ
 	public ScoreDAO() {
 		this.scoreVO=new ScoreVO();
 	}

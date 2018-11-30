@@ -1,4 +1,4 @@
-package com.biz.method.vo;
+﻿package com.biz.method.vo;
 
 public class GradeVO {
 	private String strNum;

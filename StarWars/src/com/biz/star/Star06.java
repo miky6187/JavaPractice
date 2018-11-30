@@ -1,4 +1,4 @@
-package com.biz.star;
+ï»¿package com.biz.star;
 
 public class Star06 {
 
@@ -13,12 +13,12 @@ public class Star06 {
 
 	public static void triAngle(int intStarCount) {
 		for (int j = 0; j < intStarCount; j++) {
-				// ºóÄ­À» ¸î°³ Âï°í
+				// ë¹ˆì¹¸ì„ ëª‡ê°œ ì°ê³ 
 				for (int i = j; i < intStarCount; i++) {
 					System.out.print(" ");
 				}
 
-				// ³²Àº ºÎºÐ¿¡ º°À» Âï¾î¶ó
+				// ë‚¨ì€ ë¶€ë¶„ì— ë³„ì„ ì°ì–´ë¼
 				for (int k = 0; k < j; k++) {
 					System.out.print("* ");
 				}
@@ -29,12 +29,12 @@ public class Star06 {
 		public static void verTriAngle() {
 			for (int j = 0; j < 5; j++) {
 
-				// ºóÄ­À» ¸î°³ Âï°í
+				// ë¹ˆì¹¸ì„ ëª‡ê°œ ì°ê³ 
 				for (int i = 0; i < j; i++) {
 					System.out.print(" ");
 				}
 
-				// ³²Àº ºÎºÐ¿¡ º°À» Âï¾î¶ó
+				// ë‚¨ì€ ë¶€ë¶„ì— ë³„ì„ ì°ì–´ë¼
 				for (int k = j; k < 5; k++) {
 					System.out.print("* ");
 				}

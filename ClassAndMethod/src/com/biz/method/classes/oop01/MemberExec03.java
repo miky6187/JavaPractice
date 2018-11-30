@@ -1,4 +1,4 @@
-package com.biz.method.classes.oop01;
+ï»¿package com.biz.method.classes.oop01;
 
 import com.biz.method.classes.dao.MemberDAO;
 import com.biz.method.classes.vo.MemberVO;
@@ -9,9 +9,9 @@ public class MemberExec03 {
 		// TODO Auto-generated method stub
 		MemberVO vo=new MemberVO();
 		vo.setStrid("001");
-		vo.setStrName("ÀÌ¸ù·æ");
+		vo.setStrName("ì´ëª½ë£¡");
 		vo.setStrTel("010-222-9999");
-		vo.setStrAddr("³²¿ø½Ã");
+		vo.setStrAddr("ë‚¨ì›ì‹œ");
 		vo.setIntAge(16);
 		
 		MemberDAO dao = new MemberDAO(vo);

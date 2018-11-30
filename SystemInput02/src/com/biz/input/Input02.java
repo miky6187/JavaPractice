@@ -1,4 +1,4 @@
-package com.biz.input;
+﻿package com.biz.input;
 
 import java.util.Scanner;
 

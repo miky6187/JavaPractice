@@ -1,4 +1,4 @@
-package com.biz.ex02;
+ï»¿package com.biz.ex02;
 
 public class GradeProcess01 {
 
@@ -13,21 +13,21 @@ public class GradeProcess01 {
 		int intSum= intKor + intEng + intSci + intMath + intHis;
 		
 		System.out.println
-		("±¹¾î : " + intKor );
+		("êµ­ì–´ : " + intKor );
 		System.out.println
-		("¿µ¾î : " + intEng );
+		("ì˜ì–´ : " + intEng );
 		System.out.println
-		("¼öÇĞ : " + intMath );
+		("ìˆ˜í•™ : " + intMath );
 		System.out.println
-		("°úÇĞ : " + intSci );
+		("ê³¼í•™ : " + intSci );
 		System.out.println
-		("±¹»ç : " + intHis );
+		("êµ­ì‚¬ : " + intHis );
 		
 		
 		System.out.println
-		("ÃÑÇÕ : " + intSum);
+		("ì´í•© : " + intSum);
 		System.out.printf
-		("Æò±Õ : " + intSum/5.0f);
+		("í‰ê·  : " + intSum/5.0f);
 	}
 	
 	public static int ran() {

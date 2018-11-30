@@ -1,4 +1,4 @@
-package com.biz.console;
+﻿package com.biz.console;
 
 public class Print05 {
 

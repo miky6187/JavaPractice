@@ -1,4 +1,4 @@
-package com.biz.ex02;
+ï»¿package com.biz.ex02;
 
 import java.util.Scanner;
 
@@ -11,23 +11,23 @@ public class UserExec02 {
 		UserVO userVO = new UserVO();
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("ÇÐ¹ø>>");
+		System.out.print("í•™ë²ˆ>>");
 		String strNum = scanner.nextLine();
 		userVO.setStrNum(strNum);
 		
-		System.out.print("ÀÌ¸§>>");
+		System.out.print("ì´ë¦„>>");
 		String strName = scanner.nextLine();
 		userVO.setStrName(strName);
 		
-		System.out.print("ÇÐ³â>>");
+		System.out.print("í•™ë…„>>");
 		String strGrade = scanner.nextLine();
 		userVO.setStrGrade(strGrade);
 		
-		System.out.print("ÁÖ¼Ò>>");
+		System.out.print("ì£¼ì†Œ>>");
 		String strAddrs = scanner.nextLine();
 		userVO.setStrAddrs(strAddrs);
 		
-		System.out.print("ÀüÈ­¹øÈ£>>");
+		System.out.print("ì „í™”ë²ˆí˜¸>>");
 		String strNum010 = scanner.nextLine();
 		userVO.setStrNum010(strNum010);
 		

@@ -1,7 +1,7 @@
-package com.biz.method.classes;
+ï»¿package com.biz.method.classes;
 
 public class ScoreVO {
-	//º¯¼ö¸¦ ¼±¾ðÇÏ´Â Å°¿öµå
+	//ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ëŠ” í‚¤ì›Œë“œ
 	String strName ;
 	int intKor;
 	int intEng;

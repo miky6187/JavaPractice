@@ -1,8 +1,8 @@
-package com.biz.method.classes.statics;
+ï»¿package com.biz.method.classes.statics;
 
 public class StaticExec01 {
 
-	//static class°¡ µÊ
+	//static classê°€ ë¨
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(Nations.KOREA);
@@ -14,8 +14,8 @@ public class StaticExec01 {
 		String strNum="30";
 		int intNum =Integer.valueOf(strNum);
 		
-		String strName="´ëÇÑ¹Î±¹";
-		if(strName.equals("´ëÇÑ ¹Î±¹")) {
+		String strName="ëŒ€í•œë¯¼êµ­";
+		if(strName.equals("ëŒ€í•œ ë¯¼êµ­")) {
 			
 		}
 		
@@ -23,7 +23,7 @@ public class StaticExec01 {
 			
 		}
 		
-		//KOREA´Â finalº¯¼öÀÌ±â¿¡ °ªÀ» º¯°æÇÒ ¼ö ¾ø´Ù.
+		//KOREAëŠ” finalë³€ìˆ˜ì´ê¸°ì— ê°’ì„ ë³€ê²½í•  ìˆ˜ ì—†ë‹¤.
 		if(strName.equals(Nations.KOREA)) {
 			
 		}

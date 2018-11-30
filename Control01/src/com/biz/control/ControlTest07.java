@@ -1,4 +1,4 @@
-package com.biz.control;
+ï»¿package com.biz.control;
 
 public class ControlTest07 {
 
@@ -6,27 +6,27 @@ public class ControlTest07 {
 		// TODO Auto-generated method stub
 		int intNum = 0;
 		if( (intNum % 2) == 0) 
-			System.out.println(intNum++ + ": Â¦¼ö");
+			System.out.println(intNum++ + ": ì§ìˆ˜");
 		else
 			intNum++;
 		
 		if( (intNum % 2) == 0) 
-			System.out.println(intNum++ + ": Â¦¼ö");
+			System.out.println(intNum++ + ": ì§ìˆ˜");
 		else
 			intNum++;
 		
 		if( (intNum % 2) == 0) 
-			System.out.println(intNum++ + ": Â¦¼ö");
+			System.out.println(intNum++ + ": ì§ìˆ˜");
 		else
 			intNum++;
 
 		if( (intNum % 2) == 0) 
-			System.out.println(intNum++ + ": Â¦¼ö");
+			System.out.println(intNum++ + ": ì§ìˆ˜");
 		else
 			intNum++;
 
 		if( (intNum % 2) == 0) 
-			System.out.println(intNum++ + ": Â¦¼ö");
+			System.out.println(intNum++ + ": ì§ìˆ˜");
 		else
 			intNum++;
 

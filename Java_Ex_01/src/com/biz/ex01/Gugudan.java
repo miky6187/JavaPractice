@@ -1,11 +1,11 @@
-package com.biz.ex01;
+ï»¿package com.biz.ex01;
 
 public class Gugudan {
-	//TODO ¿¬½À¹®Á¦
+	//TODO ì—°ìŠµë¬¸ì œ
 	public static void main(String[] args) {
 		
 		for(int dan=2; dan<=9; dan++) {
-			System.out.println("===="+dan+"´Ü====");
+			System.out.println("===="+dan+"ë‹¨====");
 			guguDan(dan);
 		}
 		

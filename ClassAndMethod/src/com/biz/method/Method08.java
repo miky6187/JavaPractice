@@ -1,4 +1,4 @@
-package com.biz.method;
+ï»¿package com.biz.method;
 
 public class Method08 {
 
@@ -6,7 +6,7 @@ public class Method08 {
 		// TODO Auto-generated method stub
 		
 		
-		// ±ê Çãºê¿¡ ÇÁ·ÎÁ§Æ® ¿Ã¸®±â
+		// ê¹ƒ í—ˆë¸Œì— í”„ë¡œì íŠ¸ ì˜¬ë¦¬ê¸°
 
 	}
 

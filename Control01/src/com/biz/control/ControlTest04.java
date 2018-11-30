@@ -1,4 +1,4 @@
-package com.biz.control;
+ï»¿package com.biz.control;
 
 public class ControlTest04 {
 
@@ -9,47 +9,47 @@ public class ControlTest04 {
 		boolean b = (intMode == 0);
 		
 		if( (intNum1 %2) == 0 ) {
-			System.out.println(intNum1 + " Àº Â¦¼ö");
+			System.out.println(intNum1 + " ì€ ì§ìˆ˜");
 		} else {
-			System.out.println(intNum1 + " Àº È¦¼ö");
+			System.out.println(intNum1 + " ì€ í™€ìˆ˜");
 		}
 		
-		// if, else ¹® ´ÙÀ½¿¡ ¸í·É¹®ÀÌ ´Ü ÇÑÁÙ¸¸ ÀÖÀ¸¸é
-		// {} ¸¦ »ı·«ÇÒ¼ö ÀÖ´Ù.
+		// if, else ë¬¸ ë‹¤ìŒì— ëª…ë ¹ë¬¸ì´ ë‹¨ í•œì¤„ë§Œ ìˆìœ¼ë©´
+		// {} ë¥¼ ìƒëµí• ìˆ˜ ìˆë‹¤.
 		if( (intNum1 %2) == 0 ) 
-			System.out.println(intNum1 + " Àº Â¦¼ö");
+			System.out.println(intNum1 + " ì€ ì§ìˆ˜");
 		else 
-			System.out.println(intNum1 + " Àº È¦¼ö");
+			System.out.println(intNum1 + " ì€ í™€ìˆ˜");
 		
 		if( (intNum1 %2) == 0 ) { 
-			System.out.println(intNum1 + " Àº Â¦¼ö");
-			System.out.println(intNum1 + " Àº Â¦¼ö");
+			System.out.println(intNum1 + " ì€ ì§ìˆ˜");
+			System.out.println(intNum1 + " ì€ ì§ìˆ˜");
 		} else 
-			System.out.println(intNum1 + " Àº È¦¼ö");
+			System.out.println(intNum1 + " ì€ í™€ìˆ˜");
 		
-		// if ¹®¿¡ {} °¡ ¾øÀ¸¸é
-		// ¹Ù·Î ´ÙÀ½ÀÇ ÇÑ¹®Àå¸¸ if¹®ÀÇ ¿µÇâÀ» ¹Ş´Â´Ù.
+		// if ë¬¸ì— {} ê°€ ì—†ìœ¼ë©´
+		// ë°”ë¡œ ë‹¤ìŒì˜ í•œë¬¸ì¥ë§Œ ifë¬¸ì˜ ì˜í–¥ì„ ë°›ëŠ”ë‹¤.
 		if( (intNum1 %2) == 0 ) 
-			System.out.println(intNum1 + " Àº Â¦¼ö");
-		System.out.println(intNum1 + " Àº Â¦¼ö");
+			System.out.println(intNum1 + " ì€ ì§ìˆ˜");
+		System.out.println(intNum1 + " ì€ ì§ìˆ˜");
 
-		// if ¹® ³¡¿¡ ; ÀÌ ¿À¸é
-		// if ¹®¿¡ ¿µÇâÀ» ¹Ş´Â ¸í·É¹®ÀÌ ÇÏ³ªµµ ¾ø´Ù. 
+		// if ë¬¸ ëì— ; ì´ ì˜¤ë©´
+		// if ë¬¸ì— ì˜í–¥ì„ ë°›ëŠ” ëª…ë ¹ë¬¸ì´ í•˜ë‚˜ë„ ì—†ë‹¤. 
 		if( (intNum1 %2) == 0 ) ;
-		System.out.println(intNum1 + " Àº Â¦¼ö");
+		System.out.println(intNum1 + " ì€ ì§ìˆ˜");
 		
 		if( (intNum1 %2) == 0 )
 			System.out.println("if");
 		
 		if( (intNum1 %2) == 0 ) ;
 		
-		// ¸í·É¹®ÀÇ Á¦¾î±Ç ¿µ¿ª
-		// === ¸í·É¹® ³¡¿¡ ; ¿À¸é 
-		//		: ÇÑÁÙ·Î ³¡
-		// == ¸í·É¹® ´ÙÀ½¿¡ {...} 
-		//		: Áß°ıÈ£ ¹üÀ§³»ÀÇ ¸í·ÉµéÀÌ ÇÑ ±×·ì
-		// == ¸í·É¹® ´ÙÀ½ÁÙ¿¡ ¸í·É¹®°ú ; ¿À¸é
-		//		: °Å±â±îÁö
+		// ëª…ë ¹ë¬¸ì˜ ì œì–´ê¶Œ ì˜ì—­
+		// === ëª…ë ¹ë¬¸ ëì— ; ì˜¤ë©´ 
+		//		: í•œì¤„ë¡œ ë
+		// == ëª…ë ¹ë¬¸ ë‹¤ìŒì— {...} 
+		//		: ì¤‘ê´„í˜¸ ë²”ìœ„ë‚´ì˜ ëª…ë ¹ë“¤ì´ í•œ ê·¸ë£¹
+		// == ëª…ë ¹ë¬¸ ë‹¤ìŒì¤„ì— ëª…ë ¹ë¬¸ê³¼ ; ì˜¤ë©´
+		//		: ê±°ê¸°ê¹Œì§€
 		
 
 	}

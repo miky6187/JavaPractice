@@ -1,4 +1,4 @@
-package com.biz.op;
+ï»¿package com.biz.op;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -8,7 +8,7 @@ public class DateValue {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//³¯Â¥¿Í °ü·ÃµÈ JDK ÀÌ½´
+		//ë‚ ì§œì™€ ê´€ë ¨ëœ JDK ì´ìŠˆ
 		Date date =new Date();
 		System.out.println(date.toString());
 		

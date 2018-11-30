@@ -1,9 +1,9 @@
-package com.biz.method.classes.oop01;
+ï»¿package com.biz.method.classes.oop01;
 
 /*
- * Áö±İ ³»°¡ ÀÖ´Â °÷Àº classes.oop01 ÆĞÅ°Áö ÀÎµ¥                      
- * classes.voÆĞÅ°Áö¿¡ ÀÖ´Â MemberVO Å¬·¡½º¸¦ »ç¿ëÇá°í ½Í´Ù. ¶ó´Â ¼±¾ğ 
- *  Ctrl + Shift + O : ÀÚµ¿ import                                   */
+ * ì§€ê¸ˆ ë‚´ê°€ ìˆëŠ” ê³³ì€ classes.oop01 íŒ¨í‚¤ì§€ ì¸ë°                      
+ * classes.voíŒ¨í‚¤ì§€ì— ìˆëŠ” MemberVO í´ë˜ìŠ¤ë¥¼ ì‚¬ìš©í–ê³  ì‹¶ë‹¤. ë¼ëŠ” ì„ ì–¸ 
+ *  Ctrl + Shift + O : ìë™ import                                   */
 import com.biz.method.classes.vo.MemberVO;
 
 public class MemberExec01 {

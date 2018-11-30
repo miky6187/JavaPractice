@@ -1,4 +1,4 @@
-package com.biz.fileout;
+ï»¿package com.biz.fileout;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -19,12 +19,12 @@ public class FileWrite05 {
 				int rndNum = (int)(Math.random()*100)+1;
 				fw.write(rndNum+"\r\n");
 				fw.flush(); 
-				//writeµÈ ³»¿ëÀ» Áï½Ã ÆÄÀÏ¿¡ ÀúÀåÇÏ¶ó
-				//buffer¸¦ »ç¿ëÇÏÁö ¾Ê¾Æ¼­ ÀúÀåÇÒ ÆÄÀÏ³»¿ëÀÌ ¸¹À» °æ¿ì´Â 
-				//½ÇÇàÇÏ´Â ¼Óµµ°¡ ´À·ÁÁø´Ù.
+				//writeëœ ë‚´ìš©ì„ ì¦‰ì‹œ íŒŒì¼ì— ì €ì¥í•˜ë¼
+				//bufferë¥¼ ì‚¬ìš©í•˜ì§€ ì•Šì•„ì„œ ì €ì¥í•  íŒŒì¼ë‚´ìš©ì´ ë§ì„ ê²½ìš°ëŠ” 
+				//ì‹¤í–‰í•˜ëŠ” ì†ë„ê°€ ëŠë ¤ì§„ë‹¤.
 				
 			}
-			System.out.println("±â·Ï ¿Ï·á");
+			System.out.println("ê¸°ë¡ ì™„ë£Œ");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

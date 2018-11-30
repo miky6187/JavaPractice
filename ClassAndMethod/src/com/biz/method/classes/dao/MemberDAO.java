@@ -1,4 +1,4 @@
-package com.biz.method.classes.dao;
+ï»¿package com.biz.method.classes.dao;
 
 import com.biz.method.classes.vo.MemberVO;
 
@@ -14,8 +14,8 @@ public class MemberDAO {
 		this.memberVO = new MemberVO();
 		
 		this.memberVO.strid="000";
-		this.memberVO.strName="ÀÌ¸§À» ¾Ë·ÁÁÖ¼¼¿ä";
-		this.memberVO.setStrTel("ÀüÈ­¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		this.memberVO.strName="ì´ë¦„ì„ ì•Œë ¤ì£¼ì„¸ìš”";
+		this.memberVO.setStrTel("ì „í™”ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		this.memberVO.setIntAge(00);
 		
 	}
@@ -25,12 +25,12 @@ public class MemberDAO {
 	
 	public void viewMember() {
 		System.out.println("===================");
-		System.out.println("È¸¿øÁ¤º¸");
+		System.out.println("íšŒì›ì •ë³´");
 		System.out.println("-------------------");
-		System.out.println("È¸¿øÀÌ¸§:"+memberVO.strName);
-		System.out.println("ÀüÈ­¹øÈ£:"+memberVO.getStrTel());
-		System.out.println("ÁÖ¼Ò:"+memberVO.getStrAddr());
-		System.out.println("³ªÀÌ:"+memberVO.getIntAge());
+		System.out.println("íšŒì›ì´ë¦„:"+memberVO.strName);
+		System.out.println("ì „í™”ë²ˆí˜¸:"+memberVO.getStrTel());
+		System.out.println("ì£¼ì†Œ:"+memberVO.getStrAddr());
+		System.out.println("ë‚˜ì´:"+memberVO.getIntAge());
 		System.out.println("===================");
 	}
 }

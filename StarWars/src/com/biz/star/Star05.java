@@ -1,4 +1,4 @@
-package com.biz.star;
+ï»¿package com.biz.star;
 
 public class Star05 {
 
@@ -6,22 +6,22 @@ public class Star05 {
 		// TODO Auto-generated method stub
 		
 		/*
-		 * method() ÀÌ¾ß±â
-		 * java´Â ¿ì¸®(ÇÁ·Î±×·¡¸Ó)°¡ ¾îµò°¡¿¡
-		 * public static void ¶ó´Â Å°¿öµå·Î ½ÃÀÛµÈ
-		 * ¸í·É¹®À¸·Î method¸¦ ¼±¾ð(Á¤ÀÇ)ÇØ µÎ¸é
-		 * ¸¶Ä¡ java¿¡¼­ ±âº»ÀûÀ¸·Î Á¦°øÇÏ´Â
-		 * Å°¿öµå Ã³·³
-		 * ¸í·ÉÀ» ½ÇÇàÇÒ¼ö ÀÖ´Ù.
+		 * method() ì´ì•¼ê¸°
+		 * javaëŠ” ìš°ë¦¬(í”„ë¡œê·¸ëž˜ë¨¸)ê°€ ì–´ë”˜ê°€ì—
+		 * public static void ë¼ëŠ” í‚¤ì›Œë“œë¡œ ì‹œìž‘ëœ
+		 * ëª…ë ¹ë¬¸ìœ¼ë¡œ methodë¥¼ ì„ ì–¸(ì •ì˜)í•´ ë‘ë©´
+		 * ë§ˆì¹˜ javaì—ì„œ ê¸°ë³¸ì ìœ¼ë¡œ ì œê³µí•˜ëŠ”
+		 * í‚¤ì›Œë“œ ì²˜ëŸ¼
+		 * ëª…ë ¹ì„ ì‹¤í–‰í• ìˆ˜ ìžˆë‹¤.
 		 * 
-		 * method ÀÌ¸§
-		 * 1. º¯¼ö ÀÌ¸§Áþ±â¿Í °°´Ù.
-		 *    Ã¹±ÛÀÚ´Â ¿µ¹®¼Ò¹®ÀÚ
-		 *    µÎ¹øÂ°ºÎÅÍ´Â ¿µ, ¼ýÀÚ
-		 * 2. °¡±ÞÀû 2´Ü¾î ÀÌ»óÀ» ¹­¾î¼­ 
-		 * 3. ÀÇ¹ÌÀÖ´Â ÀÌ¸§À¸·Î ÁþÀÚ
-		 * 4. Ã¹±ÛÀÚ¸¦ Á¦¿ÜÇÏ°í ´Ü¾î°¡ ½ÃÀÛµÉ¶§´Â
-		 *    ´ë¹®ÀÚ·Î ½ÃÀÛÇÏÀÚ(camel)
+		 * method ì´ë¦„
+		 * 1. ë³€ìˆ˜ ì´ë¦„ì§“ê¸°ì™€ ê°™ë‹¤.
+		 *    ì²«ê¸€ìžëŠ” ì˜ë¬¸ì†Œë¬¸ìž
+		 *    ë‘ë²ˆì§¸ë¶€í„°ëŠ” ì˜, ìˆ«ìž
+		 * 2. ê°€ê¸‰ì  2ë‹¨ì–´ ì´ìƒì„ ë¬¶ì–´ì„œ 
+		 * 3. ì˜ë¯¸ìžˆëŠ” ì´ë¦„ìœ¼ë¡œ ì§“ìž
+		 * 4. ì²«ê¸€ìžë¥¼ ì œì™¸í•˜ê³  ë‹¨ì–´ê°€ ì‹œìž‘ë ë•ŒëŠ”
+		 *    ëŒ€ë¬¸ìžë¡œ ì‹œìž‘í•˜ìž(camel)
 		 */
 		triAngle();
 		verTriAngle();
@@ -36,20 +36,20 @@ public class Star05 {
 
 	}
 	
-	// TODO triAngle method ¼±¾ðºÎ
-	// Áö±ÝºÎÅÍ Star05 Å¬·¡½º¿¡ 
-	// triAngle ÀÌ¶ó´Â ³ª¸¸ÀÇ keyword¸¦ ¸¸µé°Ú´Ù.
-	// 		¶ó°í ¼±¾ð
-	// ÀÌÁ¦ ºÎÅÍ ÀÌ·± Å°¿öµå¸¦ method(¸Þ¼­µå)¶ó°í
-	// 		ºÎ¸¥´Ù
+	// TODO triAngle method ì„ ì–¸ë¶€
+	// ì§€ê¸ˆë¶€í„° Star05 í´ëž˜ìŠ¤ì— 
+	// triAngle ì´ë¼ëŠ” ë‚˜ë§Œì˜ keywordë¥¼ ë§Œë“¤ê² ë‹¤.
+	// 		ë¼ê³  ì„ ì–¸
+	// ì´ì œ ë¶€í„° ì´ëŸ° í‚¤ì›Œë“œë¥¼ method(ë©”ì„œë“œ)ë¼ê³ 
+	// 		ë¶€ë¥¸ë‹¤
 	public static void triAngle() {
 		for (int j = 0; j < 5; j++) {
-			// ºóÄ­À» ¸î°³ Âï°í
+			// ë¹ˆì¹¸ì„ ëª‡ê°œ ì°ê³ 
 			for (int i = j; i < 5; i++) {
 				System.out.print(" ");
 			}
 
-			// ³²Àº ºÎºÐ¿¡ º°À» Âï¾î¶ó
+			// ë‚¨ì€ ë¶€ë¶„ì— ë³„ì„ ì°ì–´ë¼
 			for (int k = 0; k < j; k++) {
 				System.out.print("* ");
 			}
@@ -60,12 +60,12 @@ public class Star05 {
 	public static void verTriAngle() {
 		for (int j = 0; j < 5; j++) {
 
-			// ºóÄ­À» ¸î°³ Âï°í
+			// ë¹ˆì¹¸ì„ ëª‡ê°œ ì°ê³ 
 			for (int i = 0; i < j; i++) {
 				System.out.print(" ");
 			}
 
-			// ³²Àº ºÎºÐ¿¡ º°À» Âï¾î¶ó
+			// ë‚¨ì€ ë¶€ë¶„ì— ë³„ì„ ì°ì–´ë¼
 			for (int k = j; k < 5; k++) {
 				System.out.print("* ");
 			}

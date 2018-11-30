@@ -1,4 +1,4 @@
-package com.biz.op;
+ï»¿package com.biz.op;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -8,10 +8,10 @@ public class DateCheck {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//³¯Â¥°ªÀ» Å°º¸µå³ª, ¿ÜºÎÀåÄ¡·ÎºÎÅÍ ÀĞ¾úÀ»¶§ 
-		//À¯È¿ÇÑÁö È®ÀÎÇÒ ÇÊ¿ä°¡ ÀÖÀ»¶§ »ç¿ëÇÒ ¼ö ÀÖ´Â ÄÚµå
+		//ë‚ ì§œê°’ì„ í‚¤ë³´ë“œë‚˜, ì™¸ë¶€ì¥ì¹˜ë¡œë¶€í„° ì½ì—ˆì„ë•Œ 
+		//ìœ íš¨í•œì§€ í™•ì¸í•  í•„ìš”ê°€ ìˆì„ë•Œ ì‚¬ìš©í•  ìˆ˜ ìˆëŠ” ì½”ë“œ
 		
-		//Å°º¸µå·Î 
+		//í‚¤ë³´ë“œë¡œ 
 		
 		String date1 = "1991/01/01";
 		String date2 = "1991/02/20";
@@ -21,7 +21,7 @@ public class DateCheck {
 		
 		dateCheck.setLenient(false);
 		
-		// SimpleDateFormat ÀÇ parse()¸Ş¼­µå´Â 
+		// SimpleDateFormat ì˜ parse()ë©”ì„œë“œëŠ” 
 		try {
 			dateCheck.parse(date1);
 			System.out.println(date1);
@@ -34,7 +34,7 @@ public class DateCheck {
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("¿¹¿Ü¹ß»ı");
+			System.out.println("ì˜ˆì™¸ë°œìƒ");
 		}
 		
 				

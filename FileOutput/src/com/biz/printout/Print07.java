@@ -1,4 +1,4 @@
-package com.biz.printout;
+ï»¿package com.biz.printout;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -14,14 +14,14 @@ public class Print07 {
 		try {
 			pw =new PrintWriter(printFile);
 			pw.println("==================");
-			pw.println("±¸±¸´Ü 5´Ü");
+			pw.println("êµ¬êµ¬ë‹¨ 5ë‹¨");
 			pw.println("------------------");
 			for(int i=0;i<9;i++) {
 				pw.printf("%d x %d = %2d\r\n",5, (i+1), 5*(i+1));
 			}
 			pw.println("==================");
 			pw.close();
-			System.out.println("±¸±¸´Ü ÀÛ¼º ÀúÀå ¿Ï·á");
+			System.out.println("êµ¬êµ¬ë‹¨ ìž‘ì„± ì €ìž¥ ì™„ë£Œ");
 			
 			
 		} catch (FileNotFoundException e) {

@@ -1,4 +1,4 @@
-package com.biz.inout.service;
+ï»¿package com.biz.inout.service;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class InoutService {
 	
 	InoutVO inoutVO ;
 	
-	// Å¬·¡½ºÀÇ »ý¼ºÀÚ
+	// í´ëž˜ìŠ¤ì˜ ìƒì„±ìž
 	public InoutService() {
 		inoutVO = new InoutVO();
 	}
@@ -16,27 +16,27 @@ public class InoutService {
 	public boolean makeInout() {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("³¯Â¥(19990101) >>");
+		System.out.print("ë‚ ì§œ(19990101) >>");
 		String strDate = scanner.nextLine();
 		if(inoutVO.setStrDate(strDate) == false) {
-			System.out.println("³¯Â¥Çü½ÄÀÌ Àß¸øµÇ¾ú½À´Ï´Ù.");
+			System.out.println("ë‚ ì§œí˜•ì‹ì´ ìž˜ëª»ë˜ì—ˆìŠµë‹ˆë‹¤.");
 			return false;
 		}
 		
-		System.out.print("±¸ºÐ(1:¸ÅÀÔ, 2:¸ÅÃâ) >>");
+		System.out.print("êµ¬ë¶„(1:ë§¤ìž…, 2:ë§¤ì¶œ) >>");
 		String strIO = scanner.nextLine();
 
 		inoutVO.setStrIO(strIO);
 		try {
-			System.out.print("´Ü°¡ >>");
+			System.out.print("ë‹¨ê°€ >>");
 			String strDanga = scanner.nextLine();
 			inoutVO.setIntDanga(Integer.valueOf(strDanga));
 			
-			System.out.print("¼ö·® >>");
+			System.out.print("ìˆ˜ëŸ‰ >>");
 			String strSu = scanner.nextLine();
 			inoutVO.setIntSu(Integer.valueOf(strSu));
 			
-			System.out.print("ºÎ°¡¼¼(1:°ú¼¼, 2:¸é¼¼) >>");
+			System.out.print("ë¶€ê°€ì„¸(1:ê³¼ì„¸, 2:ë©´ì„¸) >>");
 			String strVat = scanner.nextLine();
 			inoutVO.setVat(Byte.valueOf(strVat));
 		

@@ -1,4 +1,4 @@
-package com.biz.star;
+﻿package com.biz.star;
 
 public class Star14 {
 
@@ -12,7 +12,7 @@ public class Star14 {
 	}
 	public static boolean loop01(int count) {
 		if (count > 10) {
-			System.out.println("�׸�!!!!");
+			System.out.println("그만!!!!");
 			return false;
 		}
 		else {

@@ -1,4 +1,4 @@
-package com.biz.var;
+﻿package com.biz.var;
 
 public class Variable02 {
 

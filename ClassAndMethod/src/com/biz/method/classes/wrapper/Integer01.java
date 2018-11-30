@@ -1,4 +1,4 @@
-package com.biz.method.classes.wrapper;
+ï»¿package com.biz.method.classes.wrapper;
 
 public class Integer01 {
 
@@ -10,21 +10,21 @@ public class Integer01 {
 		String strSum =strNum1+strNum2;
 		strSum=strNum1.concat(strNum2);
 		
-		//¹®ÀÚ¿­ strNum1°ú strNum2ÀÇ °ªÀ» µ¡¼ÀÇßÀ»¶§
-		//¼ıÀÚ 30°ú 50À» ´õÇÑ °ªÀ¸·Î ¹Ù²Ù°í ½Í´Ù.
+		//ë¬¸ìì—´ strNum1ê³¼ strNum2ì˜ ê°’ì„ ë§ì…ˆí–ˆì„ë•Œ
+		//ìˆ«ì 30ê³¼ 50ì„ ë”í•œ ê°’ìœ¼ë¡œ ë°”ê¾¸ê³  ì‹¶ë‹¤.
 	
 		int intNum1=Integer.valueOf(strNum1);
 		int intNum2=Integer.valueOf(strNum2);
 		System.out.println(intNum1+intNum2);
 		
-		//floatµµ °¡´É
+		//floatë„ ê°€ëŠ¥
 		
 		strNum1=String.valueOf(intNum1);
 		strNum2=String.valueOf(intNum2);
 		
 		strNum1=""+intNum1;
 		strNum2=""+intNum2;
-		//µÑÀÌ °°À½
+		//ë‘˜ì´ ê°™ìŒ
 		
 		strNum1="30 ";
 		strNum2="50 ";

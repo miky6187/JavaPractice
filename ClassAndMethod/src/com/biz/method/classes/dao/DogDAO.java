@@ -1,4 +1,4 @@
-package com.biz.method.classes.dao;
+ï»¿package com.biz.method.classes.dao;
 
 import com.biz.method.classes.vo.DogVO;
 
@@ -10,26 +10,26 @@ public class DogDAO {
 	}
 	public void dogRun() {
 		String strName = this.dogVO.getStrName();
-		System.out.println(strName +"°¡ ´Þ¸³´Ï´Ù.");
+		System.out.println(strName +"ê°€ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 	public void dogRun(String strField) {
 		String strName = this.dogVO.getStrName();
-		strName +="°¡ "+strField;
-		strName +="¸¦ ´Þ¸³´Ï´Ù.";
+		strName +="ê°€ "+strField;
+		strName +="ë¥¼ ë‹¬ë¦½ë‹ˆë‹¤.";
 		System.out.println(strName);
 		
 	}
 	
 	public void goEat() {
 		String strName=this.dogVO.getStrName();
-		System.out.println(strName +"°¡ ¸Ô½À´Ï´Ù.");
+		System.out.println(strName +"ê°€ ë¨¹ìŠµë‹ˆë‹¤.");
 		
 	}
 	
 	public void goEat(String strFood) {
 		String strName=this.dogVO.getStrName();
-		strName +="°¡ "+ strFood;
-		strName +="¸¦ ¸ÀÀÖ°Ô ¸Ô½À´Ï´Ù.";
+		strName +="ê°€ "+ strFood;
+		strName +="ë¥¼ ë§›ìžˆê²Œ ë¨¹ìŠµë‹ˆë‹¤.";
 		System.out.println(strName);
 		
 	}

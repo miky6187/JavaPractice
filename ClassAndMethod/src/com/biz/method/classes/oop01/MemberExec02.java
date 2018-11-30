@@ -1,4 +1,4 @@
-package com.biz.method.classes.oop01;
+ï»¿package com.biz.method.classes.oop01;
 
 import com.biz.method.classes.dao.MemberDAO;
 
@@ -10,9 +10,9 @@ public class MemberExec02 {
 		dao.viewMember();
 		
 		dao.memberVO.strid="001";
-		dao.memberVO.strName="È«±æµ¿";
+		dao.memberVO.strName="í™ê¸¸ë™";
 		dao.memberVO.setStrTel("010-111-1234");
-		dao.memberVO.setStrAddr("¼­¿ïÆ¯º°½Ã");
+		dao.memberVO.setStrAddr("ì„œìš¸íŠ¹ë³„ì‹œ");
 		dao.memberVO.setIntAge(30);
 		dao.viewMember();
 

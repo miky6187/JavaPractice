@@ -1,4 +1,4 @@
-package com.biz.num;
+﻿package com.biz.num;
 
 public class LongNumber {
 

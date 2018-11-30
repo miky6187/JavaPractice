@@ -1,15 +1,15 @@
-package com.biz.method.classes.vo;
+ï»¿package com.biz.method.classes.vo;
 
 /*
- * ¼ºÀûÃ³¸®¸¦ ÇÒ¶§ 
- * ÇĞ»ıÀÇ ÇĞ¹ø, ÀÌ¸§
- * °¢ °ú¸ñÀÇ Á¡¼ö¿Í ÃÑÁ¡, Æò±ÕÀÇ µ¥ÀÌÅÍ¸¦ ÀúÀåÇÒ º¯¼ö¸¦ °®´Â 
+ * ì„±ì ì²˜ë¦¬ë¥¼ í• ë•Œ 
+ * í•™ìƒì˜ í•™ë²ˆ, ì´ë¦„
+ * ê° ê³¼ëª©ì˜ ì ìˆ˜ì™€ ì´ì , í‰ê· ì˜ ë°ì´í„°ë¥¼ ì €ì¥í•  ë³€ìˆ˜ë¥¼ ê°–ëŠ” 
  * Value Object(DTO : )
  */
 public class GradeVO {
 	
-	//Å¬·¡½º¿¡ ¼±¾ğµÈ º¯¼öµé. 
-	//¼Ó¼º, memberº¯¼ö => ±âº»¼ºÁúÀ» privateÀ¸·Î ¼³Á¤ÇÑ´Ù.
+	//í´ë˜ìŠ¤ì— ì„ ì–¸ëœ ë³€ìˆ˜ë“¤. 
+	//ì†ì„±, memberë³€ìˆ˜ => ê¸°ë³¸ì„±ì§ˆì„ privateìœ¼ë¡œ ì„¤ì •í•œë‹¤.
 	private String strNum;
 	private String strName;
 	
@@ -22,9 +22,9 @@ public class GradeVO {
 	private int intSum;
 	private float floatAvg;
 	
-	//¿ÜºÎ¿¡¼­ Á¢±ÙÇÒ ¼ö ÀÖ´Â Åë·Î¸¦ ¼±¾ğ
-	//new¸¦ »ç¿ëÇØ¼­ °´Ã¼·Î »ı¼ºÇÑ ÈÄ
-	//ÀĞ±â, ¾²±â¸¦ ½ÃµµÇÏ´Â °÷ => getter, setter
+	//ì™¸ë¶€ì—ì„œ ì ‘ê·¼í•  ìˆ˜ ìˆëŠ” í†µë¡œë¥¼ ì„ ì–¸
+	//newë¥¼ ì‚¬ìš©í•´ì„œ ê°ì²´ë¡œ ìƒì„±í•œ í›„
+	//ì½ê¸°, ì“°ê¸°ë¥¼ ì‹œë„í•˜ëŠ” ê³³ => getter, setter
 	public String getStrNum() {
 		return strNum;
 	}

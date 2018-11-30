@@ -1,4 +1,4 @@
-package com.biz.printout;
+ï»¿package com.biz.printout;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -17,7 +17,7 @@ public class Print05 {
 				
 			}
 			pw.close();
-			System.out.println("ÀúÀå µÇ¾ú´Ù");
+			System.out.println("ì €ì¥ ë˜ì—ˆë‹¤");
 		}
 		catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

@@ -1,18 +1,18 @@
-package com.blz.arrays;
+ï»¿package com.blz.arrays;
 
 public class ScoreArray01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//ÇÑ¹İÀÇ ÇĞ»ıÀÌ 10¸íÀÌ¶ó°í °¡Á¤
+		//í•œë°˜ì˜ í•™ìƒì´ 10ëª…ì´ë¼ê³  ê°€ì •
 		int intClassCount =10;
 		
-		//½ÃÇèÀ» º¸±âÀü¿¡ ¼ºÀûÃ³¸® ÇÁ·Î±×·¥À» ¹Ì¸® ¸¸µé°í ÀÖÀ½
+		//ì‹œí—˜ì„ ë³´ê¸°ì „ì— ì„±ì ì²˜ë¦¬ í”„ë¡œê·¸ë¨ì„ ë¯¸ë¦¬ ë§Œë“¤ê³  ìˆìŒ
 		int [] intKor = {0,0,0,0,0,0,0,0,0,0};
 		int[] intEng = new int[intClassCount];
 		int[] intMath =new int[10];
 		int[] intSci = new int[intClassCount];
-		//´Ù °°Àº ¾ê±â
+		//ë‹¤ ê°™ì€ ì–˜ê¸°
 		
 		intKor[0]=90;
 		intKor[1]=91;

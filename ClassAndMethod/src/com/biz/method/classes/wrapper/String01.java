@@ -1,4 +1,4 @@
-package com.biz.method.classes.wrapper;
+﻿package com.biz.method.classes.wrapper;
 
 public class String01 {
 
@@ -8,7 +8,7 @@ public class String01 {
 		/*
 		 * 
 		 */
-		String strName = "ȫ�浿";
+		String strName = "홍길동";
 
 	}
 

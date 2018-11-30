@@ -1,4 +1,4 @@
-package com.blz.arrays;
+ï»¿package com.blz.arrays;
 
 public class ScoreArray03 {
 
@@ -8,7 +8,7 @@ public class ScoreArray03 {
 		//intNum;
 		
 		int[] intEng=new int[10];
-		int intLenth=intEng.length;//int[]r°¡ Å¬·¡½ºÀÇ ¿ªÇÒÀ» ÇØ¼­ intEng°¡ °´Ã¼°¡ µÇ¾ú±â ¶§¹®
+		int intLenth=intEng.length;//int[]rê°€ í´ë˜ìŠ¤ì˜ ì—­í• ì„ í•´ì„œ intEngê°€ ê°ì²´ê°€ ë˜ì—ˆê¸° ë•Œë¬¸
 		System.out.println(intLenth);
 		
 		for(int i=0; i<intLenth; i++) {

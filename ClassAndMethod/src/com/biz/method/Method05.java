@@ -1,4 +1,4 @@
-package com.biz.method;
+﻿package com.biz.method;
 
 public class Method05 {
 

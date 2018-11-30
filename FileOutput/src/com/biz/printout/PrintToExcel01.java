@@ -1,4 +1,4 @@
-package com.biz.printout;
+ï»¿package com.biz.printout;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -17,22 +17,22 @@ public class PrintToExcel01 {
 		try {
 			fw = new FileWriter(printFile,true);
 			pw = new PrintWriter(fw);
-			pw.println("ÇĞ¹ø,±¹¾î,¿µ¾î,¼öÇĞ");
+			pw.println("í•™ë²ˆ,êµ­ì–´,ì˜ì–´,ìˆ˜í•™");
 			for (int i=0; i<100; i++) {
 				int intNum = i+1;
 				int intKor = (int)(Math.random()*(100-50))+50;
 				int intEng = (int)(Math.random()*(100-50))+50;
 				int intMath = (int)(Math.random()*(100-50))+50;
 				
-				//%5d : ÀüÃ¼ ÀÚ¸´¼ö¸¦ 5°³·Î ÇÏ°í ¿À¸¥ÂÊÁ¤·Ä
-				//%05d : ÀüÃ¼ ÀÚ¸´¼ö¸¦ 5°³·Î ÇÏ°í, ºóÄ­ ¼ö¸¸Å­ 0À¸·Î Ã¤¿ì±â
+				//%5d : ì „ì²´ ìë¦¿ìˆ˜ë¥¼ 5ê°œë¡œ í•˜ê³  ì˜¤ë¥¸ìª½ì •ë ¬
+				//%05d : ì „ì²´ ìë¦¿ìˆ˜ë¥¼ 5ê°œë¡œ í•˜ê³ , ë¹ˆì¹¸ ìˆ˜ë§Œí¼ 0ìœ¼ë¡œ ì±„ìš°ê¸°
 				pw.printf("%05d,%5d,%5d,%5d \r\n"
 						, intNum, intKor, intEng, intMath);
 			}
 			
 			pw.close();
 			fw.close();
-			System.out.println("ÀúÀå¿Ï·á");
+			System.out.println("ì €ì¥ì™„ë£Œ");
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

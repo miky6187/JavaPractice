@@ -1,4 +1,4 @@
-package com.biz.printout;
+ï»¿package com.biz.printout;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -11,7 +11,7 @@ public class Print02 {
 		// TODO Auto-generated method stub
 		
 		String printFile ="D:/bizwork/workspace/ExFiles/my.txt";
-		// D:\\bizwork\\workspace\\ExFiles\\my.txt ¿Í °°Àº ¸»
+		// D:\\bizwork\\workspace\\ExFiles\\my.txt ì™€ ê°™ì€ ë§
 		
 		InputStream in = System.in;
 		Scanner scan =new Scanner(in);
@@ -26,7 +26,7 @@ public class Print02 {
 			}
 			
 			pw.close();
-			System.out.println("ÆÄÀÏ ÀúÀå ¿Ï·á");
+			System.out.println("íŒŒì¼ ì €ì¥ ì™„ë£Œ");
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

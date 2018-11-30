@@ -1,4 +1,4 @@
-package com.biz.control;
+ï»¿package com.biz.control;
 
 public class ControlTest10 {
 
@@ -19,7 +19,7 @@ public class ControlTest10 {
 		}
 		System.out.println(intSum);
 		
-		// 1ºÎÅÍ 100±îÁö Â¦¼ö¿Í È¦¼öÀÇ °³¼ö¼¼±â
+		// 1ë¶€í„° 100ê¹Œì§€ ì§ìˆ˜ì™€ í™€ìˆ˜ì˜ ê°œìˆ˜ì„¸ê¸°
 		int intEven = 0;
 		int intOdd = 0;
 		for(int count = 1;count <=100;count++) {
@@ -29,7 +29,7 @@ public class ControlTest10 {
 		System.out.println("EVEN:" + intEven);
 		System.out.println("ODD:" + intOdd);
 		
-		// 1ºÎÅÍ 100±îÁö Â¦¼ö¿Í È¦¼öÀÇ ÇÕ ±¸ÇÏ±â
+		// 1ë¶€í„° 100ê¹Œì§€ ì§ìˆ˜ì™€ í™€ìˆ˜ì˜ í•© êµ¬í•˜ê¸°
 		int intEvenSum = 0;
 		int intOddSum = 0;
 		for(int count = 1;count <=100;count++) {
@@ -42,37 +42,37 @@ public class ControlTest10 {
 		System.out.println("EVEN:" + intEven);
 		System.out.println("ODD:" + intOdd);
 		
-		// 1ºÎÅÍ 100±îÁö ¼ıÀÚÁß 3ÀÇ ¹è¼öÀÇ °³¼ö??
+		// 1ë¶€í„° 100ê¹Œì§€ ìˆ«ìì¤‘ 3ì˜ ë°°ìˆ˜ì˜ ê°œìˆ˜??
 		int thCount = 0;
 		for(int c = 1; c <100 ; c++) {
 			if(c%3 == 0) thCount ++; 
 		}
-		System.out.println("3ÀÇ ¹è¼öÀÇ °³¼ö:" + thCount);
+		System.out.println("3ì˜ ë°°ìˆ˜ì˜ ê°œìˆ˜:" + thCount);
 		
-		// 1ºÎÅÍ 100±îÁö ¼ıÀÚÁß 3ÀÇ ¹è¼öÀÇ ÇÕÀº?
+		// 1ë¶€í„° 100ê¹Œì§€ ìˆ«ìì¤‘ 3ì˜ ë°°ìˆ˜ì˜ í•©ì€?
 		int thSum = 0;
 		for(int c = 1 ; c < 100 ; c++) {
 			if(c%3 == 0) thSum += c;
 		}
-		System.out.println("3ÀÇ ¹è¼öÀÇ ÇÕ:" + thSum);
+		System.out.println("3ì˜ ë°°ìˆ˜ì˜ í•©:" + thSum);
 		
 		
 		
 		int a = 3; 
-		// Á¤¼öÇüº¯¼ö a¸¦ ¼±¾ğÇÏ°í,
-		//  clearÇÑÈÄ 3À» ÀúÀåÇÏ¶ó
+		// ì •ìˆ˜í˜•ë³€ìˆ˜ aë¥¼ ì„ ì–¸í•˜ê³ ,
+		//  clearí•œí›„ 3ì„ ì €ì¥í•˜ë¼
 		
 		System.out.println(a);
-		// º¯¼ö a¿¡ ÀúÀåµÈ °ª(3)À» console¿¡ º¸¿©¶ó
+		// ë³€ìˆ˜ aì— ì €ì¥ëœ ê°’(3)ì„ consoleì— ë³´ì—¬ë¼
 		
 		int b = 3;
-		// Á¤¼öÇüº¯¼ö b¸¦ ¼±¾ğÇÏ°í,
-		// clearÇÑÈÄ 3À» ÀúÀåÇÏ¶ó
+		// ì •ìˆ˜í˜•ë³€ìˆ˜ bë¥¼ ì„ ì–¸í•˜ê³ ,
+		// clearí•œí›„ 3ì„ ì €ì¥í•˜ë¼
 		
 		System.out.println(a+b);
-		// º¯¼ö a¿¡ ÀúÀåµÈ °ª(3)°ú
-		// º¯¼ö b¿¡ ÀúÀåµÈ °ª(4)¸¦ µ¡¼ÀÇÏ¿©
-		// console¿¡ º¸¿©¶ó
+		// ë³€ìˆ˜ aì— ì €ì¥ëœ ê°’(3)ê³¼
+		// ë³€ìˆ˜ bì— ì €ì¥ëœ ê°’(4)ë¥¼ ë§ì…ˆí•˜ì—¬
+		// consoleì— ë³´ì—¬ë¼
 
 		
 		

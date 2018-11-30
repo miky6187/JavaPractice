@@ -1,4 +1,4 @@
-package com.biz.method;
+ï»¿package com.biz.method;
 
 public class Method01 {
 
@@ -9,9 +9,9 @@ public class Method01 {
 	}
 	
 	
-	//method ¼±¾ğ
-	//ÀÌ¸§ : addVar()
-	//±â´É : TODO ¸Å°³º¯¼ö 2°³¸¦ ¹Ş¾Æ¼­ µ¡¼À
+	//method ì„ ì–¸
+	//ì´ë¦„ : addVar()
+	//ê¸°ëŠ¥ : TODO ë§¤ê°œë³€ìˆ˜ 2ê°œë¥¼ ë°›ì•„ì„œ ë§ì…ˆ
 	public static void addVar(int intNum1, int intNum2) {
 		//int intNum1 =30;
 		//int intNum2 =50; 
