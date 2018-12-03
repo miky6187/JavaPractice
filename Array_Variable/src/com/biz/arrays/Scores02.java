@@ -1,4 +1,4 @@
-﻿package com.blz.arrays;
+﻿package com.biz.arrays;
 
 public class Scores02 {
 	

@@ -23,5 +23,11 @@ public class StudentVO {
 	public void setStrKorName(String strKorName) {
 		this.strKorName = strKorName;
 	}
+	
+	@Override
+	public String toString() {
+		return "StudentVO [strNum=" + strNum + ", strEngName=" + strEngName + ", strKorName=" + strKorName + "]";
+	}
+	
 
 }
